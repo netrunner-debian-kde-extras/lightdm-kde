@@ -1,0 +1,23 @@
+Source: lightdm-kde
+Section: kde
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Aurélien Gâteau <aurelien.gateau@ubuntu.com>
+Build-Depends:
+    debhelper (>= 9),
+    pkg-kde-tools,
+    cmake,
+    pkg-config,
+    liblightdm-qt-2-dev (>= 1.1.2),
+    kdelibs5-dev
+Standards-Version: 3.9.3
+Homepage: https://projects.kde.org/projects/playground/base/lightdm
+
+Package: lightdm-kde-greeter
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         lightdm
+Provides: lightdm-greeter
+Description: LightDM KDE greeter
+ lightdm-kde provides a LightDM greeter using KDE libraries.

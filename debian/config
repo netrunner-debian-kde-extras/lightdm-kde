@@ -1,0 +1,47 @@
+#!/bin/sh
+set -e
+
+# source debconf library
+. /usr/share/debconf/confmodule
+
+LIGHTDM_DEBCONF_KEY=shared/lightdm-greeter
+LIGHTDM_CONF=/etc/lightdm/lightdm.conf
+
+get_lightdm_greeter() {
+    sed -n -e '/^\[SeatDefault\]/,/^\[/p' $LIGHTDM_CONF \
+        | awk -F= '$1 =="greeter-session" { print $2 }'
+}
+
+OWNERS=
+if db_metaget $LIGHTDM_DEBCONF_KEY owners; then
+    OWNERS="$RET"
+fi
+
+CHOICES=
+if db_metaget $LIGHTDM_DEBCONF_KEY choices; then
+    CHOICES="$RET"
+fi
+
+if [ "$OWNERS" != "$CHOICES" ]; then
+    db_subst $LIGHTDM_DEBCONF_KEY choices "$OWNERS" || :
+    db_fset $LIGHTDM_DEBCONF_KEY seen false || :
+fi
+
+# debconf is not a registry; use the current greeter setting to pre-answer the
+# question if possible
+if [ -e "$LIGHTDM_CONF" ]; then
+    CURRENT_DEFAULT=$(get_lightdm_greeter)
+    if [ -n "$CURRENT_DEFAULT" ]; then
+        db_set $LIGHTDM_DEBCONF_KEY "$CURRENT_DEFAULT"
+    fi
+fi
+
+# when installing from scratch as part of a release upgrade, default to
+# us, otherwise ask
+if [ -z "$2" -a -n "$RELEASE_UPGRADE_IN_PROGRESS" ]; then
+    db_set $LIGHTDM_DEBCONF_KEY $THIS_PACKAGE
+    db_fset $LIGHTDM_DEBCONF_KEY seen true
+else
+    db_input high $LIGHTDM_DEBCONF_KEY || :
+    db_go || :
+fi
