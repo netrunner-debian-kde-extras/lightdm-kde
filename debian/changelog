@@ -1,56 +1,6 @@
-lightdm-kde (0.2.1-0ubuntu1) quantal; urgency=low
+lightdm-kde (0.2.1-1) UNRELEASED; urgency=low
 
-  * New upstream release
+  * Initial release (Closes: #684053)
+  * Using package from Ubuntu. Thanks guys!
 
- -- Michal Zajac <quintasan@kubuntu.org>  Sun, 22 Jul 2012 19:44:44 +0200
-
-lightdm-kde (0.1.1-0ubuntu4) quantal; urgency=low
-
-  * Set default session in postinst script to kde-plasma
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 10 Jul 2012 12:27:28 +0100
-
-lightdm-kde (0.1.1-0ubuntu3) quantal; urgency=low
-
-  * Depend on lightdm, needed by postinst script
-  * Use --keep-old in postinst setting
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 10 Jul 2012 11:39:55 +0100
-
-lightdm-kde (0.1.1-0ubuntu2) quantal; urgency=low
-
-  * Drop build-depends on kdelibs5-experimental-dev as the content has been
-    moved to kdelibs5-dev.
-
- -- Felix Geyer <debfx@ubuntu.com>  Sun, 10 Jun 2012 00:57:25 +0200
-
-lightdm-kde (0.1.1-0ubuntu1) quantal; urgency=low
-
-  * Switch to debhelper compat level v9.
-  * Use pkg-kde-tools dh addon.
-  * Enable parallel building.
-  * Fix syntax errors in copyright file.
-  * Bump Standards-Version to 3.9.3.
-  * Add a watch file.
-
- -- Felix Geyer <debfx@ubuntu.com>  Tue, 22 May 2012 00:35:25 +0200
-
-lightdm-kde (0.1.1-0ubuntu0.1) precise-proposed; urgency=low
-
-  * New upstream bugfix release
-  * Fixes LP: #987910 "User pictures are not shown in greeters which
-    support them"
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 24 Apr 2012 17:03:32 +0100
-
-lightdm-kde (0.1.0-0ubuntu1) precise; urgency=low
-
-  * New upstream release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Apr 2012 15:20:54 +0100
-
-lightdm-kde (0.0.git20120214-0ubuntu1) precise; urgency=low
-
-  * Initial package
-
- -- Aurélien Gâteau <aurelien.gateau@ubuntu.com>  Tue, 14 Feb 2012 16:48:06 +0100
+ -- Ralf Jung <post@ralfj.de>  Mon, 06 Aug 2012 18:06:14 +0200

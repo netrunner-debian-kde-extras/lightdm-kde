@@ -50,6 +50,7 @@ License: BSD
 
 Files: debian/*
 Copyright: 2011 Aurélien Gâteau <aurelien.gateau@ubuntu.com>
+           2012 Ralf Jung <post@ralfj.de>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
