@@ -1,6 +1,0 @@
-Template: shared/lightdm-greeter
-Type: select
-Choices: ${choices}
-Description: Default LightDM greeter:
- A LightDM greeter is used by LightDM display manager to let the user log in on
- the X Window System.
