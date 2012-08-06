@@ -1,0 +1,23 @@
+From: Ralf Jung <post@ralfj.de>
+Date: Mon, 6 Aug 2012 19:01:21 +0200
+Subject: Do not install Messages.sh
+
+Forwarded: Yes
+---
+ themes/CMakeLists.txt |    6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+diff --git a/themes/CMakeLists.txt b/themes/CMakeLists.txt
+index c3ec259..b3df757 100644
+--- a/themes/CMakeLists.txt
++++ b/themes/CMakeLists.txt
+@@ -1,5 +1,7 @@
+ install(DIRECTORY classic
+-        DESTINATION ${DATA_INSTALL_DIR}/lightdm-kde-greeter/themes)
++        DESTINATION ${DATA_INSTALL_DIR}/lightdm-kde-greeter/themes
++        PATTERN "Messages.sh" EXCLUDE)
+ install(DIRECTORY userbar
+-        DESTINATION ${DATA_INSTALL_DIR}/lightdm-kde-greeter/themes)
++        DESTINATION ${DATA_INSTALL_DIR}/lightdm-kde-greeter/themes
++        PATTERN "Messages.sh" EXCLUDE)
+ 
