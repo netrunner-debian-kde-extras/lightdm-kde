@@ -5,6 +5,59 @@ Source: https://projects.kde.org/projects/playground/base/lightdm
 Files: *
 Copyright: 2011,2012 David Edmundson <kde@davidedmundson.co.uk>
 License: GPL-3+
+
+Files: cmake/*
+Copyright: 2012 David Edmundson <kde@davidedmundson.co.uk>
+           2012 Lamarque V. Souza <Lamarque.Souza.ext@basyskom.com>
+License: BSD
+
+Files: greeter/powermanagement.*
+Copyright: 2012 Alejandro Fiestas Olivares <afiestas@kde.org>
+License: GPL-2+
+
+Files: kcm/configwidgets/selectimagebutton.*
+Copyright: 2011  Martin Klapetek <martin.klapetek@gmail.com>
+           2011,2012 David Edmundson <kde@davidedmundson.co.uk>
+License: LGPL-2.1+
+
+Files: themes/userbar/ListButton.qml
+Copyright: 2012 Aurélien Gâteau <agateau@kde.org>
+License: GPL-3+
+
+Files: themes/classic/private/*
+       themes/classic/TextField.qml
+       themes/classic/ToolButton.qml
+       themes/userbar/private/*
+       themes/userbar/TextField.qml
+       themes/userbar/ToolButton.qml
+Copyright: 2011 Daker Fernandes Pinheiro <dakerfp@gmail.com>
+           2011 Marco Martin <mart@kde.org>
+License: LGPL-2+
+
+Files: debian/*
+Copyright: 2011 Aurélien Gâteau <aurelien.gateau@ubuntu.com>
+           2012 Ralf Jung <post@ralfj.de>
+License: GPL-2+
+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-3+
  LightDM-KDE is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation, either version 3 of the License, or
@@ -21,9 +74,43 @@ License: GPL-3+
  On Debian systems, the complete text of the GNU General
  Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
 
-Files: cmake/*
-Copyright: 2012 David Edmundson <kde@davidedmundson.co.uk>
-           2012 Lamarque V. Souza <Lamarque.Souza.ext@basyskom.com>
+License: LGPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License as
+ published by the Free Software Foundation; either version 2, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this program; if not, write to the
+ Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1".
+
 License: BSD
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
@@ -47,23 +134,3 @@ License: BSD
  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-Files: debian/*
-Copyright: 2011 Aurélien Gâteau <aurelien.gateau@ubuntu.com>
-           2012 Ralf Jung <post@ralfj.de>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <http://www.gnu.org/licenses/>
- .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
