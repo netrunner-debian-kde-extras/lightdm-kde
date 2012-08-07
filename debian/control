@@ -1,7 +1,8 @@
 Source: lightdm-kde
 Section: kde
 Priority: optional
-Maintainer: Ralf Jung <post@ralfj.de>
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Ralf Jung <post@ralfj.de>
 Build-Depends:
     debhelper (>= 9),
     pkg-kde-tools,
