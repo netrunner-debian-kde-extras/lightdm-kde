@@ -18,6 +18,7 @@ Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          lightdm
+Recommends: desktop-base
 Provides: lightdm-greeter
 Description: LightDM KDE greeter
  A LightDM greeter using KDE libraries. This package also includes a KCM
