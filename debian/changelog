@@ -3,4 +3,4 @@ lightdm-kde (0.2.1-1) unstable; urgency=low
   * Initial release (Closes: #684053)
   * Using package from Ubuntu. Thanks guys!
 
- -- Ralf Jung <post@ralfj.de>  Mon, 06 Aug 2012 18:06:14 +0200
+ -- Ralf Jung <post@ralfj.de>  Tue, 14 Aug 2012 18:17:32 +0200
