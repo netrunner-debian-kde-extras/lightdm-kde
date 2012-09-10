@@ -25,14 +25,22 @@ Item {
     width: screenSize.width;
     height: screenSize.height;
 
-    property string guestLogin: "*guest"
+    ScreenManager {
+        id: screenManager
+        delegate: Image {
+             // default to keeping aspect ratio
+            fillMode: config.readEntry("BackgroundKeepAspectRatio") == false ? Image.Stretch : Image.PreserveAspectCrop;
+            //read from config, if there's no entry use plasma theme
+            source: config.readEntry("Background") ? config.readEntry("Background"): plasmaTheme.wallpaperPath(Qt.size(width,height));
+        }
+    }
 
-    Image {
-        fillMode: Image.PreserveAspectCrop
-        source: config.readEntry("Background") ? config.readEntry("Background"): plasmaTheme.wallpaperPath();
-        anchors.fill: parent
-        visible: source != ""
-        smooth: true
+    Item { //recreate active screen at a sibling level which we can anchor in.
+        id: activeScreen
+        x: screenManager.activeScreen.x
+        y: screenManager.activeScreen.y
+        width: screenManager.activeScreen.width
+        height: screenManager.activeScreen.height
     }
 
     Connections {
@@ -43,18 +51,34 @@ Item {
         }
 
         onAuthenticationComplete: {
-            var session = sessionButton.dataForIndex(sessionButton.currentIndex);
-            console.log("session: " + session);
-            if (session == "") {
-                session = "default";
-            }
             if(greeter.authenticated) {
-                greeter.startSessionSync(session);
+                loginAnimation.start();
             } else {
                 feedbackLabel.text = i18n("Sorry, incorrect password. Please try again.");
                 feedbackLabel.showFeedback();
+                passwordInput.selectAll()
+                passwordInput.forceActiveFocus()
             }
         }
+    }
+
+    function doSessionSync() {
+       var session = sessionButton.dataForIndex(sessionButton.currentIndex);
+       if (session == "") {
+           session = "default";
+       }
+       greeter.startSessionSync(session);
+    }
+
+    ParallelAnimation {
+        id: loginAnimation
+        NumberAnimation { target: welcomeLabel; property: "opacity"; to: 0; duration: 400; easing.type: Easing.InOutQuad }
+        NumberAnimation { target: feedbackLabel; property: "opacity"; to: 0; duration: 400; easing.type: Easing.InOutQuad }
+        NumberAnimation { target: usersList; property: "opacity"; to: 0; duration: 400; easing.type: Easing.InOutQuad }
+        NumberAnimation { target: loginButtonItem; property: "opacity"; to: 0; duration: 400; easing.type: Easing.InOutQuad }
+        NumberAnimation { target: sessionButton; property: "opacity"; to: 0; duration: 400; easing.type: Easing.InOutQuad }
+        NumberAnimation { target: powerBar; property: "opacity"; to: 0; duration: 400; easing.type: Easing.InOutQuad }
+        onCompleted: doSessionSync()
     }
 
     Component.onCompleted: {
@@ -73,9 +97,10 @@ Item {
     }
 
     PlasmaComponents.Label {
+        visible: false
         id: welcomeLabel
-        anchors.horizontalCenter: parent.horizontalCenter
-        anchors.top: parent.top
+        anchors.horizontalCenter: activeScreen.horizontalCenter
+        anchors.top: activeScreen.top
         anchors.topMargin: 5
         font.pointSize: 14
         text: i18n("Welcome to %1", greeter.hostname);
@@ -83,7 +108,7 @@ Item {
 
     FeedbackLabel {
         id: feedbackLabel
-        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.horizontalCenter: activeScreen.horizontalCenter
         anchors.top: welcomeLabel.bottom
         anchors.topMargin: 5
         font.pointSize: 14
@@ -190,7 +215,7 @@ Item {
 
     function startLogin() {
         var username = usersList.currentItem.username;
-        if (username == guestLogin) {
+        if (username == greeter.guestLoginName) {
             greeter.authenticateAsGuest();
         } else {
             greeter.authenticate(username);
@@ -210,13 +235,13 @@ Item {
     ListView {
         id: usersList
         anchors {
-            horizontalCenter: parent.horizontalCenter
+            horizontalCenter: activeScreen.horizontalCenter
             bottom: loginButtonItem.top
             bottomMargin: 24
         }
-        width: parent.width
+        width: activeScreen.width
         height: userItemHeight
-        currentIndex: indexForUserName(greeter.selectGuest ? guestLogin : greeter.selectUser)
+        currentIndex: indexForUserName(greeter.lastLoggedInUser)
         model: usersModel
 
         cacheBuffer: count * 80
@@ -228,17 +253,37 @@ Item {
         highlightRangeMode: ListView.StrictlyEnforceRange
         preferredHighlightBegin: width / 2 - userItemWidth / 2
         preferredHighlightEnd: width / 2 + userItemWidth / 2
+
+        //if the user presses down or enter, focus password
+        //if user presses any normal key
+        //copy that character pressed to the pasword box and force focus
+
+        //can't use forwardTo as I want to switch focus. Also it doesn't work.
+        Keys.onPressed: {
+            if (event.key == Qt.Key_Left || event.key == Qt.Key_Right) {
+                event.accept();
+            } else if (event.key == Qt.Key_Down ||
+                event.key == Qt.Key_Enter ||
+                event.key == Qt.Key_Return) {
+                passwordInput.forceActiveFocus();
+            } else if (event.key & Qt.Key_Escape) {
+                //if special key, do nothing. Qt.Escape is 0x10000000 which happens to be a mask used for all special keys in Qt.
+            } else {
+                passwordInput.text += event.text;
+                passwordInput.forceActiveFocus();
+            }
+        }
     }
 
     FocusScope {
         id: loginButtonItem
         anchors {
-            horizontalCenter: parent.horizontalCenter
-            bottom: parent.verticalCenter
+            horizontalCenter: activeScreen.horizontalCenter
+            bottom: activeScreen.verticalCenter
         }
         height: 30
 
-        property bool isGuestLogin: usersList.currentItem.username == guestLogin
+        property bool isGuestLogin: usersList.currentItem.username == greeter.guestLoginName
 
         /*PlasmaComponents.*/TextField {
             id: passwordInput
@@ -251,6 +296,10 @@ Item {
             echoMode: TextInput.Password
             placeholderText: i18n("Password")
             onAccepted: startLogin();
+
+            Keys.onEscapePressed: {
+                usersList.forceActiveFocus()
+            }
 
             PlasmaComponents.ToolButton {
                 id: loginButton
@@ -295,7 +344,7 @@ Item {
             top: loginButtonItem.bottom
             topMargin: 24
             bottom: powerBar.top
-            horizontalCenter: parent.horizontalCenter
+            horizontalCenter: activeScreen.horizontalCenter
         }
 
         model: sessionsModel
@@ -316,8 +365,8 @@ Item {
     // Bottom "Power" bar
     PlasmaCore.FrameSvgItem {
         id: powerBar
-        anchors.bottom: parent.bottom
-        anchors.right: parent.right
+        anchors.bottom: activeScreen.bottom
+        anchors.right: activeScreen.right
         width: childrenRect.width + margins.left
         height: childrenRect.height + margins.top * 2
         imagePath: "translucent/widgets/panel-background"
@@ -342,7 +391,8 @@ Item {
                 id: hibernateButton
                 text: i18n("Hibernate")
                 iconSource: "system-suspend-hibernate"
-                enabled: power.canHibernate
+                //Hibernate is a special case, lots of distros disable it, so if it's not enabled don't show it
+                visible: power.canHibernate
                 onClicked: power.hibernate();
             }
 

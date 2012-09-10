@@ -23,8 +23,6 @@ import org.kde.plasma.components 0.1 as PlasmaComponents
 import org.kde.qtextracomponents 0.1 as ExtraComponents
 import org.kde.plasma.core 0.1 as PlasmaCore
 
-import MyLibrary 1.0 as LightDMPlasmaWidgets
-
 Item {
     width: screenSize.width;
     height: screenSize.height;
@@ -32,9 +30,10 @@ Item {
     ScreenManager {
         id: screenManager
         delegate: Image {
-            fillMode: Image.PreserveAspectCrop          
+            // default to keeping aspect ratio
+            fillMode: config.readEntry("BackgroundKeepAspectRatio") == false ? Image.Stretch : Image.PreserveAspectCrop;
             //read from config, if there's no entry use plasma theme
-            source: config.readEntry("Background") ? config.readEntry("Background"): plasmaTheme.wallpaperPath();
+            source: config.readEntry("Background") ? config.readEntry("Background"): plasmaTheme.wallpaperPath(Qt.size(width,height));
         }
     }
 
@@ -49,17 +48,13 @@ Item {
 
     Connections {
         target: greeter;
-        onConnected: {
-            console.log("connected");
-        }
-
         onShowPrompt: {
             greeter.respond(passwordInput.text);
         }
 
         onAuthenticationComplete: {
             if(greeter.authenticated) {
-                greeter.startSessionSync(sessionCombo.itemData(sessionCombo.currentIndex));
+                loginAnimation.start();
             }
             else {
                 feedbackLabel.text = i18n("Sorry, incorrect password please try again.");
@@ -70,7 +65,23 @@ Item {
     }
 
     function login() {
-        greeter.authenticate(usernameInput.text);
+        if (useGuestOption.checked) {
+            greeter.authenticateAsGuest();
+        } else {
+            greeter.authenticate(usernameInput.text);
+        }
+    }
+
+    function doSessionSync() {
+        var session = optionsMenu.currentSession;
+        greeter.startSessionSync(session);
+    }
+
+    ParallelAnimation {
+        id: loginAnimation
+        NumberAnimation { target: dialog; property: "opacity"; to: 0; duration: 400; easing.type: Easing.InOutQuad }
+        NumberAnimation { target: powerDialog; property: "opacity"; to: 0; duration: 400; easing.type: Easing.InOutQuad }
+        onCompleted: doSessionSync()
     }
 
     PlasmaCore.FrameSvgItem {
@@ -82,7 +93,7 @@ Item {
         height: childrenRect.height + 40;
 
         Column {
-            spacing: 5
+            spacing: 15
             anchors.centerIn: parent
 
             Image {
@@ -102,38 +113,46 @@ Item {
                 text: config.readEntry("GreetMessage").replace("%hostname%", greeter.hostname);
             }
 
+            //if guest checked, replace the normal "user/pass" textboxes with a big login button
+            PlasmaComponents.Button {
+                visible: useGuestOption.checked
+                text: i18n("Log in as guest");
+                onClicked: login()
+            }
+
             Row {
+                visible: !useGuestOption.checked
                 spacing: 10
                 width: childrenRect.width
-                height: childRect.height
+                height: childrenRect.height
                 
                 Grid {
                     columns: 2
-                    spacing: 5
+                    spacing: 15
                     
                     ExtraComponents.QIconItem {
                         icon: "meeting-participant"
-                        height: passwordInput.height;
-                        width: passwordInput.height;
+                        height: usernameInput.height;
+                        width: usernameInput.height;
                     }
 
                     /*PlasmaComponents.*/TextField {
                         id: usernameInput;
                         placeholderText: i18n("Username");
-                        text: greeter.selectUser
+                        text: greeter.lastLoggedInUser
                         onAccepted: {
                             passwordInput.focus = true;
                         }
+                        width: 160
                         
                         Component.onCompleted: {
                             //if the username field has text, focus the password, else focus the username
-                            if (parent.text) {
-                                passwordInput.focus = true
+                            if (usernameInput.text) {
+                                passwordInput.focus = true;
                             } else {
-                                usernameInput.focus = true
+                                usernameInput.focus = true;
                             }
                         }
-                        
                         KeyNavigation.tab: passwordInput
                     }
 
@@ -150,6 +169,7 @@ Item {
                         onAccepted: {
                             login();
                         }
+                        width: 160
                         KeyNavigation.backtab: usernameInput
                         KeyNavigation.tab: loginButton
                     }
@@ -171,10 +191,9 @@ Item {
                 height: 10
             }
             
-            
             Row {               
-                spacing: 5;
-                  IconButton {
+                spacing: 8;
+                IconButton {
                     icon: "system-shutdown"                    
                     onClicked: {
                         if (powerDialog.opacity == 1) {
@@ -182,20 +201,61 @@ Item {
                         } else {
                             powerDialog.opacity = 1;
                         }
-                        optionsDialog.opacity = 0;
                     }
                 }
 
-                
+                PlasmaComponents.ContextMenu {
+                    id: sessionMenu
+                    visualParent: sessionMenuOption
+                }
+
+                Repeater {
+                    parent: sessionMenu
+                    model: sessionsModel
+                    delegate : PlasmaComponents.MenuItem {
+                        text: model.display
+                        checkable: true
+                        checked: model.key === optionsMenu.currentSession
+                        onClicked : {
+                            optionsMenu.currentSession = model.key;
+                        }
+
+                        Component.onCompleted: {
+                            parent = sessionMenu
+                        }
+                    }
+                    Component.onCompleted: {
+                        model.showLastUsedSession = true
+                    }
+                }
+
+                PlasmaComponents.ContextMenu {
+                    id: optionsMenu
+                    visualParent: optionsButton
+                    //in LightDM  "" means "last user session". whereas NULL is default.
+                    property string currentSession: ""
+                    PlasmaComponents.MenuItem {
+                        id: useGuestOption
+                        text: i18n("Log in as guest")
+                        checkable: true
+                        enabled: greeter.hasGuestAccount
+                    }
+                    PlasmaComponents.MenuItem {
+                        separator: true
+                    }
+
+                    PlasmaComponents.MenuItem {
+                        text: i18n("Session")
+                        id: sessionMenuOption
+                        onClicked: sessionMenu.open()
+                    }
+                }
+
                 IconButton {
+                    id: optionsButton
                     icon: "system-log-out"
                     onClicked: {
-                        if (optionsDialog.opacity == 1) {
-                            optionsDialog.opacity = 0;
-                        } else {
-                            optionsDialog.opacity = 1;
-                        }
-                        powerDialog.opacity = 0;
+                        optionsMenu.open();
                     }
                 }
             }
@@ -203,7 +263,7 @@ Item {
     }
 
     PlasmaCore.FrameSvgItem {
-        id: powerDialog;
+        id: powerDialog
         anchors.top: dialog.bottom
         anchors.topMargin: 3
         anchors.horizontalCenter: activeScreen.horizontalCenter
@@ -229,7 +289,8 @@ Item {
             PlasmaWidgets.IconWidget {
                 text: i18n("Hibernate")
                 icon: QIcon("system-suspend-hibernate")
-                enabled: power.canHibernate;
+                //Hibernate is a special case, lots of distros disable it, so if it's not enabled don't show it
+                visible: power.canHibernate;
                 onClicked: {power.hibernate();}
             }
 
@@ -248,41 +309,5 @@ Item {
             }     
         }
 
-    }
-
-
-    PlasmaCore.FrameSvgItem {
-        id: optionsDialog;
-        anchors.top: dialog.bottom
-        anchors.topMargin: 3
-        anchors.horizontalCenter: activeScreen.horizontalCenter
-        imagePath: "translucent/dialogs/background"
-        opacity: 0
-
-        Behavior on opacity { PropertyAnimation { duration: 500} }
-
-        width: childrenRect.width + 30;
-        height: childrenRect.height + 30;
-
-        Row {
-            spacing: 5
-            anchors.centerIn: parent
-
-            PlasmaComponents.Label {
-                text: i18n("Session")
-                anchors.verticalCenter: parent.verticalCenter;
-            }
-
-            LightDMPlasmaWidgets.ModelComboBox {
-                id: sessionCombo
-                model: sessionsModel;
-                anchors.verticalCenter: parent.verticalCenter;
-                width: 200;
-                Component.onCompleted : {
-                    sessionCombo.currentIndex = sessionCombo.indexForData("", sessionsModel.key);
-                    model.showLastUsedSession = true
-                }
-            }
-        }
     }
 }

@@ -11,11 +11,13 @@ git pull
 # Update NEWS
 
 # Bump version in CMakeLists.txt
+# Bump version in theme.rc files
 
 # Commit
 
 # Create tarball
 make distcheck
+#This tarball will be in the build directory
 
 # Test
 
