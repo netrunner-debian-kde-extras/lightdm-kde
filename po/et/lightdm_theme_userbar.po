@@ -1,0 +1,69 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Marek Laane <bald@smail.ee>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-18 04:31+0200\n"
+"PO-Revision-Date: 2012-07-09 22:50+0300\n"
+"Last-Translator: Marek Laane <bald@smail.ee>\n"
+"Language-Team: Estonian <kde-et@linux.ee>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: main.qml:59
+msgid "Sorry, incorrect password. Please try again."
+msgstr "Vabandust, parool oli vale. Palun proovi uuesti."
+
+#: main.qml:107
+#, kde-format
+msgid "Welcome to %1"
+msgstr "Tere tulemast - %1"
+
+#: main.qml:278
+msgid "Password"
+msgstr "Parool"
+
+#: main.qml:309
+msgid "Login"
+msgstr "Logi sisse"
+
+#: main.qml:361
+msgid "Suspend"
+msgstr "Passiivseisund"
+
+#: main.qml:369
+msgid "Hibernate"
+msgstr "Talveuni"
+
+#: main.qml:378
+msgid "Restart"
+msgstr "Taaskäivitus"
+
+#: main.qml:386
+msgid "Shutdown"
+msgstr "Seiskamine"
+
+#. i18n: file: config.ui:20
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:3
+msgid "Background Image:"
+msgstr "Taustapilt:"
+
+#. i18n: file: config.ui:30
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
+#: rc.cpp:6
+msgid "..."
+msgstr "..."
+
+#. i18n: file: config.ui:37
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:9
+msgid "Keep aspect ratio:"
+msgstr ""

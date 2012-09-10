@@ -1,0 +1,68 @@
+# KDE 4.9 Finnish translation sprint 2012-06/07
+# Author: Artnay
+msgid ""
+msgstr ""
+"Project-Id-Version: lightdm_theme_userbar\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-18 04:31+0200\n"
+"PO-Revision-Date: 2012-07-04 13:39:10+0000\n"
+"Last-Translator: Ei tietoa\n"
+"Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2012-07-19 16:41:18+0000\n"
+"X-Generator: MediaWiki 1.20alpha (r113129); Translate 2012-07-04\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: main.qml:59
+msgid "Sorry, incorrect password. Please try again."
+msgstr "Väärä salasana, yritä uudelleen."
+
+#: main.qml:107
+#, kde-format
+msgid "Welcome to %1"
+msgstr "Tervetuloa – %1"
+
+#: main.qml:278
+msgid "Password"
+msgstr "Salasana"
+
+#: main.qml:309
+msgid "Login"
+msgstr ""
+
+#: main.qml:361
+msgid "Suspend"
+msgstr "Valmiustila"
+
+#: main.qml:369
+msgid "Hibernate"
+msgstr "Lepotila"
+
+#: main.qml:378
+msgid "Restart"
+msgstr "Käynnistä uudelleen"
+
+#: main.qml:386
+msgid "Shutdown"
+msgstr "Sammuta"
+
+#. i18n: file: config.ui:20
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:3
+msgid "Background Image:"
+msgstr "Taustakuva:"
+
+#. i18n: file: config.ui:30
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
+#: rc.cpp:6
+msgid "..."
+msgstr "..."
+
+#. i18n: file: config.ui:37
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:9
+msgid "Keep aspect ratio:"
+msgstr ""

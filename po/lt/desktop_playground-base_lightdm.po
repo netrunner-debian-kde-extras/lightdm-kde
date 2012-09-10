@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-10 04:05+0000\n"
+"PO-Revision-Date: 2011-12-24 03:58+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+
+#: greeter/lightdm-kde-greeter.desktop:2
+msgctxt "Name"
+msgid "LightDM KDE Greeter"
+msgstr ""
+
+#: greeter/lightdm-kde-greeter.desktop:16
+msgctxt "Comment"
+msgid "This runs the KDE greeter, it should only be run from LightDM"
+msgstr ""
+
+#: kcm/kcm_lightdm.actions:2
+msgctxt "Name"
+msgid "LightDM"
+msgstr ""
+
+#: kcm/kcm_lightdm.actions:25
+msgctxt "Name"
+msgid "Save Theme Details"
+msgstr ""
+
+#: kcm/kcm_lightdm.actions:42
+msgctxt "Description"
+msgid "Save Theme Details in LightDM"
+msgstr ""
+
+#: kcm/kcm_lightdm.actions:63
+msgctxt "Name"
+msgid "Save Settings"
+msgstr ""
+
+#: kcm/kcm_lightdm.actions:82
+msgctxt "Description"
+msgid "Save Settings in LightDM"
+msgstr ""
+
+#: kcm/kcm_lightdm.desktop:13
+msgctxt "X-KDE-Keywords"
+msgid ""
+"lightdm,display manager,face,user,users,login,greeting,theme,language,"
+"session,sessions,shutdown,restart,guest,auto login"
+msgstr ""
+
+#: kcm/kcm_lightdm.desktop:28
+msgctxt "Name"
+msgid "Login Screen (LightDM)"
+msgstr ""
+
+#: kcm/kcm_lightdm.desktop:46
+msgctxt "Comment"
+msgid "Select login theme, adjust login features"
+msgstr ""

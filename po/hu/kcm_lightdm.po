@@ -1,0 +1,126 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Kristóf Kiszel <ulysses@kubuntu.org>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-19 05:54+0200\n"
+"PO-Revision-Date: 2012-07-05 23:28+0200\n"
+"Last-Translator: Kristóf Kiszel <ulysses@kubuntu.org>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kiszel Kristóf"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ulysses@kubuntu.org"
+
+#. i18n: file: sessionconfig.ui:27
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:5
+msgid "Background:"
+msgstr "Háttér:"
+
+#. i18n: file: sessionconfig.ui:37
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_hostname)
+#: rc.cpp:8
+msgid "Show Hostname"
+msgstr "Gépnév megjelenítése"
+
+#. i18n: file: themeconfig.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, ThemeConfig)
+#: rc.cpp:11
+msgid "MainWindow"
+msgstr "Főablak"
+
+#. i18n: file: coreconfig.ui:17
+#. i18n: ectx: property (text), widget (QCheckBox, allowGuest)
+#: rc.cpp:14
+msgid "Allow guest login"
+msgstr "Vendég bejelentkezés engedélyezése"
+
+#. i18n: file: coreconfig.ui:40
+#. i18n: ectx: property (text), widget (QCheckBox, autoLogin)
+#: rc.cpp:17
+msgid "Automatically log in:"
+msgstr "Automatikus bejelentkezés:"
+
+#. i18n: file: coreconfig.ui:52
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:20
+msgid "As user:"
+msgstr "Felhasználó:"
+
+#. i18n: file: coreconfig.ui:69
+#. i18n: ectx: property (text), widget (QLabel, autoLoginSessionLabel)
+#: rc.cpp:23
+msgid "Using session:"
+msgstr "Munkamenet:"
+
+#. i18n: file: coreconfig.ui:86
+#. i18n: ectx: property (text), widget (QLabel, autoLoginTimeoutLabel)
+#: rc.cpp:26
+msgid "After:"
+msgstr "Ennyi idő után:"
+
+#. i18n: file: coreconfig.ui:99
+#. i18n: ectx: property (suffix), widget (QSpinBox, autoLoginTimeout)
+#: rc.cpp:29
+msgid " minutes"
+msgstr " perc"
+
+#. i18n: file: coreconfig.ui:127
+#. i18n: ectx: property (text), widget (QCheckBox, enableXdmcp)
+#: rc.cpp:32
+msgid "XDMCP Server"
+msgstr "XDMCP kiszolgáló"
+
+#. i18n: file: coreconfig.ui:142
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton)
+#. i18n: file: coreconfig.ui:179
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton_2)
+#: rc.cpp:35 rc.cpp:41
+msgid "Configure..."
+msgstr "Beállítás…"
+
+#. i18n: file: coreconfig.ui:164
+#. i18n: ectx: property (text), widget (QCheckBox, enableVnc)
+#: rc.cpp:38
+msgid "VNC Server"
+msgstr "VNC kiszolgáló"
+
+#: configwidgets/selectimagebutton.cpp:40
+msgid "Load from file..."
+msgstr "Betöltés fájlból…"
+
+#: configwidgets/selectimagebutton.cpp:41
+msgid "Clear Image"
+msgstr "Kép törlése"
+
+#: configwidgets/selectimagebutton.cpp:75
+msgid "Select image"
+msgstr "Kép kiválasztása"
+
+#: lightdmkcm.cpp:47
+msgid "LightDM KDE Config"
+msgstr "LightDM KDE beállítás"
+
+#: lightdmkcm.cpp:69
+msgid "Theme"
+msgstr "Téma"
+
+#: lightdmkcm.cpp:70
+msgid "General"
+msgstr "Általános"

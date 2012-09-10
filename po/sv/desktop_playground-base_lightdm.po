@@ -1,0 +1,81 @@
+# Stefan Asserhall <stefan.asserhall@comhem.se>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-10 04:05+0000\n"
+"PO-Revision-Date: 2012-04-12 18:28+0200\n"
+"Last-Translator: Stefan Asserhäll <stefan.asserhall@comhem.se>\n"
+"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: greeter/lightdm-kde-greeter.desktop:2
+msgctxt "Name"
+msgid "LightDM KDE Greeter"
+msgstr "LightDM KDE välkomstskärm"
+
+#: greeter/lightdm-kde-greeter.desktop:16
+msgctxt "Comment"
+msgid "This runs the KDE greeter, it should only be run from LightDM"
+msgstr "Detta gör KDE:s välkomstskärm. Den ska bara köras från LightDM."
+
+#: kcm/kcm_lightdm.actions:2
+msgctxt "Name"
+msgid "LightDM"
+msgstr "LightDM"
+
+#: kcm/kcm_lightdm.actions:25
+msgctxt "Name"
+msgid "Save Theme Details"
+msgstr "Spara temainställningen"
+
+#: kcm/kcm_lightdm.actions:42
+msgctxt "Description"
+msgid "Save Theme Details in LightDM"
+msgstr "Spara temainformation i LightDM"
+
+#: kcm/kcm_lightdm.actions:63
+msgctxt "Name"
+msgid "Save Settings"
+msgstr "Spara inställningar"
+
+#: kcm/kcm_lightdm.actions:82
+msgctxt "Description"
+msgid "Save Settings in LightDM"
+msgstr "Spara inställningar i LightDM"
+
+#: kcm/kcm_lightdm.desktop:13
+msgctxt "X-KDE-Keywords"
+msgid ""
+"lightdm,display manager,face,user,users,login,greeting,theme,language,"
+"session,sessions,shutdown,restart,guest,auto login"
+msgstr ""
+"lightdm,inloggningshanterare,ansikte,användare,inloggning,hälsning,tema,"
+"språk,session,sessioner,avstängning,omstart,gäst,automatisk inloggning"
+
+#: kcm/kcm_lightdm.desktop:28
+msgctxt "Name"
+msgid "Login Screen (LightDM)"
+msgstr "Inloggningsskärm (LightDM)"
+
+#: kcm/kcm_lightdm.desktop:46
+msgctxt "Comment"
+msgid "Select login theme, adjust login features"
+msgstr "Välj inloggningstema, justera inloggningsfunktioner"
+
+#~ msgctxt "Name"
+#~ msgid "Login Manager"
+#~ msgstr "Inloggningshanterare"
+
+#~ msgctxt "Name"
+#~ msgid "Save Theme Config"
+#~ msgstr "Spara temainställningen"
+
+#~ msgctxt "Description"
+#~ msgid "Save Theme Information in LightDM"
+#~ msgstr "Spara temainformation i LightDM"

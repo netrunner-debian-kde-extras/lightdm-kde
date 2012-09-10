@@ -1,7 +1,7 @@
 /*
 This file is part of LightDM-KDE.
 
-Copyright 2011, 2012 David Edmundson <kde@davidedmundson.co.uk>
+Copyright 2012 David Edmundson <kde@davidedmundson.co.uk>
 
 LightDM-KDE is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -16,28 +16,35 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with LightDM-KDE.  If not, see <http://www.gnu.org/licenses/>.
 */
-#ifndef LINEEDIT_H
-#define LINEEDIT_H
 
-#include <Plasma/LineEdit>
+#ifndef GREETERWRAPPER_H
+#define GREETERWRAPPER_H
 
-/** A slightly hacky class to get a version of plasma line edit which can be put in password mode*/
-class LineEdit : public Plasma::LineEdit
+#include <QLightDM/Greeter>
+#include <KSharedConfig>
+
+class GreeterWrapper : public QLightDM::Greeter
 {
     Q_OBJECT
-    Q_PROPERTY(bool passwordMode READ passwordMode WRITE setPasswordMode)
+
+    Q_PROPERTY(QString lastLoggedInUser READ lastLoggedInUser CONSTANT)
+    Q_PROPERTY(QString guestLoginName READ guestLoginName CONSTANT)
 
 public:
-    explicit LineEdit(QGraphicsWidget *parent = 0);
+    explicit GreeterWrapper(QObject *parent = 0);
 
-    bool passwordMode() const;
-    void setPasswordMode(bool passwordMode);
-    
+    QString lastLoggedInUser() const;
+    QString guestLoginName() const;
+
 signals:
+    void aboutToLogin();
 
 public slots:
-    void setFocus();
+    bool startSessionSync(const QString &session=QString());
+
+private:
+    void saveLastUser(const QString &user);
+    KSharedConfig::Ptr m_config;
 };
 
-
-#endif // PASSWORDLINEEDIT_H
+#endif // GREETERWRAPPER_H

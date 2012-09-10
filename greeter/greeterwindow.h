@@ -21,9 +21,7 @@ along with LightDM-KDE.  If not, see <http://www.gnu.org/licenses/>.
 
 #include <QDeclarativeView>
 
-namespace QLightDM {
-    class Greeter;
-}
+class GreeterWrapper;
 
 class GreeterWindow: public QDeclarativeView
 {
@@ -34,6 +32,9 @@ public:
 
     ~GreeterWindow();
 
+public Q_SLOTS:
+    void setRootImage();
+
 protected:
     void resizeEvent(QResizeEvent *);
 
@@ -41,7 +42,7 @@ private Q_SLOTS:
     void screenshot();
 
 private:
-    QLightDM::Greeter *m_greeter;
+    GreeterWrapper *m_greeter;
 
 };
 

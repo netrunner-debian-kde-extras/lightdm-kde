@@ -1,0 +1,72 @@
+# translation of lightdm_theme_userbar.po to Khmer
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2012.
+# sutha <sutha@khmeros.info>, 2012.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+msgid ""
+msgstr ""
+"Project-Id-Version: lightdm_theme_userbar\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-18 04:31+0200\n"
+"PO-Revision-Date: 2012-07-09 10:00+0700\n"
+"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
+"Language-Team: Khmer <support@khmeros.info>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: KBabel 1.11.4\n"
+"X-Language: km-KH\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: main.qml:59
+msgid "Sorry, incorrect password. Please try again."
+msgstr "សូម​ទោស ពាក្យ​សម្ងាត់​មិន​ត្រឹមត្រូវ សូម​ព្យាយាម​ម្តងទៀត ។"
+
+#: main.qml:107
+#, kde-format
+msgid "Welcome to %1"
+msgstr "ស្វាគមន៍​មកកាន់ %1"
+
+#: main.qml:278
+msgid "Password"
+msgstr "ពាក្យ​សម្ងាត់"
+
+#: main.qml:309
+msgid "Login"
+msgstr "ចូល"
+
+#: main.qml:361
+msgid "Suspend"
+msgstr "ផ្អាក"
+
+#: main.qml:369
+msgid "Hibernate"
+msgstr "សម្អំ"
+
+#: main.qml:378
+msgid "Restart"
+msgstr "ចាប់ផ្ដើម​ឡើង​​វិញ"
+
+#: main.qml:386
+msgid "Shutdown"
+msgstr "បិទ"
+
+#. i18n: file: config.ui:20
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:3
+msgid "Background Image:"
+msgstr "រូបភាព​ផ្ទៃ​ខាងក្រោយ ៖"
+
+#. i18n: file: config.ui:30
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
+#: rc.cpp:6
+msgid "..."
+msgstr "..."
+
+#. i18n: file: config.ui:37
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:9
+msgid "Keep aspect ratio:"
+msgstr ""

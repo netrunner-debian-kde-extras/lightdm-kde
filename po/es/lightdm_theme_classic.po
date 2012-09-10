@@ -1,0 +1,86 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Eloy Cuadra <ecuadra@eloihr.net>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-18 04:31+0200\n"
+"PO-Revision-Date: 2012-07-07 12:08+0200\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: main.qml:60
+msgid "Sorry, incorrect password please try again."
+msgstr "Contraseña incorrecta. Por favor, pruebe de nuevo."
+
+#: main.qml:119 main.qml:240
+msgid "Log in as guest"
+msgstr ""
+
+#: main.qml:141
+msgid "Username"
+msgstr "Usuario"
+
+#: main.qml:169
+msgid "Password"
+msgstr "Contraseña"
+
+#: main.qml:249
+msgid "Session"
+msgstr "Sesión"
+
+#: main.qml:284
+msgid "Suspend"
+msgstr "Suspender"
+
+#: main.qml:291
+msgid "Hibernate"
+msgstr "Hibernar"
+
+#: main.qml:299
+msgid "Restart"
+msgstr "Reiniciar"
+
+#: main.qml:306
+msgid "Shutdown"
+msgstr "Apagar"
+
+#. i18n: file: config.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:3
+msgid "Background Image:"
+msgstr "Imagen de fondo:"
+
+#. i18n: file: config.ui:27
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
+#. i18n: file: config.ui:55
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Logo)
+#: rc.cpp:6 rc.cpp:15
+msgid "..."
+msgstr "..."
+
+#. i18n: file: config.ui:34
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:9
+msgid "Keep aspect ratio:"
+msgstr ""
+
+#. i18n: file: config.ui:48
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:12
+msgid "Welcome Image:"
+msgstr "Imagen de bienvenida:"
+
+#. i18n: file: config.ui:62
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:18
+msgid "Welcome Text:"
+msgstr "Texto de bienvenida:"

@@ -2,7 +2,7 @@ project(greeter-app)
 
 # Versions
 set(LIGHTDM_KDE_VERSION_MAJOR 0)
-set(LIGHTDM_KDE_VERSION_MINOR 2)
+set(LIGHTDM_KDE_VERSION_MINOR 3)
 set(LIGHTDM_KDE_VERSION_PATCH 0)
 set(LIGHTDM_KDE_VERSION ${LIGHTDM_KDE_VERSION_MAJOR}.${LIGHTDM_KDE_VERSION_MINOR}.${LIGHTDM_KDE_VERSION_PATCH})
 
@@ -43,3 +43,6 @@ configure_file(config.h.in ${CMAKE_CURRENT_BINARY_DIR}/config.h @ONLY)
 add_subdirectory(greeter)
 add_subdirectory(kcm)
 add_subdirectory(themes)
+find_package(Msgfmt REQUIRED)
+find_package(Gettext REQUIRED)
+add_subdirectory( po )

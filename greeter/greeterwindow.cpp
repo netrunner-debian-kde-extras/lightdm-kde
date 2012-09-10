@@ -28,11 +28,13 @@ along with LightDM-KDE.  If not, see <http://www.gnu.org/licenses/>.
 #include <QDir>
 #include <QPixmap>
 #include <QShortcut>
+#include <QProcess>
 #include <QtCore/QDebug>
 #include <QtDeclarative/qdeclarative.h>
+#include <QPainter>
+#include <QPixmap>
+#include <QProcess>
 
-#include <QLightDM/Greeter>
-#include <QLightDM/UsersModel>
 #include <QLightDM/Power>
 
 #include <kdeclarative.h>
@@ -42,33 +44,26 @@ along with LightDM-KDE.  If not, see <http://www.gnu.org/licenses/>.
 #include <KStandardDirs>
 #include <KUrl>
 #include <KDebug>
+#include <KGlobal>
 #include <Plasma/Theme>
 
-
-#include "components/lineedit.h"
-#include "components/modelcombobox.h"
 #include "extrarowproxymodel.h"
 #include "faceimageprovider.h"
 #include "configwrapper.h"
 #include "sessionsmodel.h"
 #include "usersmodel.h"
 #include "screensmodel.h"
+#include "greeterwrapper.h"
 
 #include <config.h>
 
 GreeterWindow::GreeterWindow(QWidget *parent)
     : QDeclarativeView(parent),
-      m_greeter(new QLightDM::Greeter(this))
+      m_greeter(new GreeterWrapper(this))
 {
     QRect screen = QApplication::desktop()->rect();
     setGeometry(screen);
     
-    m_greeter->connectSync();
-
-    //add a new plasma widget which is a plasma line edit in password mode.
-    qmlRegisterType<LineEdit>("MyLibrary", 1, 0, "LineEdit");
-    qmlRegisterType<ModelComboBox>("MyLibrary", 1, 0, "ModelComboBox");
-
     KDeclarative kdeclarative;
     kdeclarative.setDeclarativeEngine(engine());
     kdeclarative.initialize();
@@ -80,7 +75,6 @@ GreeterWindow::GreeterWindow(QWidget *parent)
     if (m_greeter->hasGuestAccountHint()) {
         usersModel->setShowGuest(true);
     }
-
 
     engine()->addImageProvider("face", new FaceImageProvider(usersModel));
 
@@ -111,7 +105,6 @@ GreeterWindow::GreeterWindow(QWidget *parent)
     rootContext()->setContextProperty("power", new QLightDM::PowerInterface(this));
     rootContext()->setContextProperty("plasmaTheme", Plasma::Theme::defaultTheme());
 
-
     setSource(source);
     // Prevent screen flickering when the greeter starts up. This really needs to be sorted out in QML/Qt...
     setAttribute(Qt::WA_OpaquePaintEvent);
@@ -123,6 +116,8 @@ GreeterWindow::GreeterWindow(QWidget *parent)
     QShortcut* cut = new QShortcut(this);
     cut->setKey(Qt::CTRL + Qt::ALT + Qt::Key_S);
     connect(cut, SIGNAL(activated()), SLOT(screenshot()));
+
+    connect(m_greeter, SIGNAL(aboutToLogin()), SLOT(setRootImage()));
 
     new PowerManagement(this);
 }
@@ -138,9 +133,20 @@ void GreeterWindow::resizeEvent(QResizeEvent *event)
     setSceneRect(QRectF(0, 0, width(), height()));
 }
 
+void GreeterWindow::setRootImage()
+{
+    QPixmap pix = QPixmap::grabWindow(winId());
+    QProcess process;
+    process.start(QFile::encodeName(KGlobal::dirs()->findExe("lightdm-kde-greeter-rootimage")).data(), QIODevice::WriteOnly);
+    pix.save(&process, "xpm"); //write pixmap to rootimage
+    process.closeWriteChannel();
+    process.waitForFinished();
+}
+
 void GreeterWindow::screenshot()
 {
     QPixmap pix = QPixmap::grabWindow(winId());
+
     QString path = QDir::temp().absoluteFilePath("lightdm-kde-greeter-screenshot.png");
     bool ok = pix.save(path);
     if (ok) {
