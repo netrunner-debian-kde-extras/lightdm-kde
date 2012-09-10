@@ -1,3 +1,11 @@
+lightdm-kde (0.3.0-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+  * Add Vcs-Git and Vcs-Browser information.
+  * Drop 0001-Do-not-install-Messages.sh.patch, it has been applied upstream.
+
+ -- Ralf Jung <post@ralfj.de>  Mon, 10 Sep 2012 12:25:58 +0200
+
 lightdm-kde (0.2.1-1) unstable; urgency=low
 
   * Initial release (Closes: #684053)

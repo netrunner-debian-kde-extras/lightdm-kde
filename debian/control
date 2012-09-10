@@ -9,6 +9,7 @@ Build-Depends:
     cmake,
     pkg-config,
     liblightdm-qt-dev (>= 1.1.2),
+    libx11-dev,
     kdelibs5-dev
 Standards-Version: 3.9.3
 Homepage: https://projects.kde.org/projects/playground/base/lightdm
