@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lightdm_theme_userbar\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:31+0200\n"
+"POT-Creation-Date: 2012-08-28 09:40+0200\n"
 "PO-Revision-Date: 2012-07-31 09:30-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
@@ -17,53 +17,50 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
 "3 : 4\n"
 
-#: main.qml:59
-msgid "Sorry, incorrect password. Please try again."
-msgstr ""
-
-#: main.qml:107
-#, kde-format
-msgid "Welcome to %1"
-msgstr ""
-
-#: main.qml:278
-msgid "Password"
-msgstr "Focal Faire"
-
-#: main.qml:309
-msgid "Login"
-msgstr "Logáil isteach"
-
-#: main.qml:361
-msgid "Suspend"
-msgstr "Cuir ar fionraí"
-
-#: main.qml:369
-msgid "Hibernate"
-msgstr "Geimhrigh"
-
-#: main.qml:378
-msgid "Restart"
-msgstr "Atosaigh"
-
-#: main.qml:386
-msgid "Shutdown"
-msgstr "Múchadh"
-
-#. i18n: file: config.ui:20
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3
-msgid "Background Image:"
-msgstr ""
+#: config.ui:20
+msgid "Background image:"
+msgstr "Íomhá chúlra:"
 
-#. i18n: file: config.ui:30
 #. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
-#: rc.cpp:6
+#: config.ui:30
 msgid "..."
 msgstr "..."
 
-#. i18n: file: config.ui:37
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:9
+#: config.ui:37
 msgid "Keep aspect ratio:"
-msgstr ""
+msgstr "Caomhnaigh an cóimheas treoíochta:"
+
+#: main.qml:57
+msgid "Sorry, incorrect password. Please try again."
+msgstr "Focal faire mícheart. Bain triail eile as."
+
+#: main.qml:106
+#, kde-format
+msgid "Welcome to %1"
+msgstr "Fáilte go %1"
+
+#: main.qml:295
+msgid "Password"
+msgstr "Focal Faire"
+
+#: main.qml:330
+msgid "Login"
+msgstr "Logáil isteach"
+
+#: main.qml:382
+msgid "Suspend"
+msgstr "Cuir ar fionraí"
+
+#: main.qml:390
+msgid "Hibernate"
+msgstr "Geimhrigh"
+
+#: main.qml:399
+msgid "Restart"
+msgstr "Atosaigh"
+
+#: main.qml:407
+msgid "Shutdown"
+msgstr "Múchadh"

@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:31+0200\n"
-"PO-Revision-Date: 2012-07-20 20:42+0300\n"
-"Last-Translator: Antonis Geralis <capoiosct@gmail.com>\n"
+"POT-Creation-Date: 2012-08-20 06:44+0200\n"
+"PO-Revision-Date: 2012-09-08 18:30+0300\n"
+"Last-Translator: Αντώνης Γέραλης <capoiosct@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-doc@kde.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -17,70 +17,64 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.4\n"
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config.ui:17
+msgid "Background image:"
+msgstr "Εικόνα φόντου:"
+
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Logo)
+#: config.ui:27 config.ui:55
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: config.ui:34
+msgid "Keep aspect ratio:"
+msgstr "Διατήρηση αναλογίας διαστάσεων:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config.ui:48
+msgid "Welcome image:"
+msgstr "Εικόνα καλωσορίσματος:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: config.ui:62
+msgid "Welcome text:"
+msgstr "Κείμενο καλωσορίσματος:"
+
 #: main.qml:60
 msgid "Sorry, incorrect password please try again."
 msgstr "Εσφαλμένος κωδικός πρόσβασης. Παρακαλώ προσπαθήστε ξανά."
 
-#: main.qml:119 main.qml:240
+#: main.qml:119 main.qml:239
 msgid "Log in as guest"
-msgstr ""
+msgstr "Είσοδος ως επισκέπτης"
 
 #: main.qml:141
 msgid "Username"
 msgstr "Όνομα χρήστη"
 
-#: main.qml:169
+#: main.qml:168
 msgid "Password"
 msgstr "Κωδικός πρόσβασης"
 
-#: main.qml:249
+#: main.qml:248
 msgid "Session"
 msgstr "Συνεδρία"
 
-#: main.qml:284
+#: main.qml:283
 msgid "Suspend"
 msgstr "Αναστολή"
 
-#: main.qml:291
+#: main.qml:290
 msgid "Hibernate"
 msgstr "Νάρκη"
 
-#: main.qml:299
+#: main.qml:298
 msgid "Restart"
 msgstr "Επανεκκίνηση"
 
-#: main.qml:306
+#: main.qml:305
 msgid "Shutdown"
 msgstr "Τερματισμός"
-
-#. i18n: file: config.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3
-msgid "Background Image:"
-msgstr "Εικόνα φόντου:"
-
-#. i18n: file: config.ui:27
-#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
-#. i18n: file: config.ui:55
-#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Logo)
-#: rc.cpp:6 rc.cpp:15
-msgid "..."
-msgstr "..."
-
-#. i18n: file: config.ui:34
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:9
-msgid "Keep aspect ratio:"
-msgstr ""
-
-#. i18n: file: config.ui:48
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:12
-msgid "Welcome Image:"
-msgstr "Εικόνα καλωσορίσματος:"
-
-#. i18n: file: config.ui:62
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:18
-msgid "Welcome Text:"
-msgstr "Κείμενο καλωσορίσματος:"

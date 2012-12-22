@@ -18,89 +18,13 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.4\n"
 
-#: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Łukasz Wojniłowicz"
 
-#: rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "lukasz.wojnilowicz@gmail.com"
-
-#. i18n: file: sessionconfig.ui:27
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:5
-msgid "Background:"
-msgstr "Tło:"
-
-#. i18n: file: sessionconfig.ui:37
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_hostname)
-#: rc.cpp:8
-msgid "Show Hostname"
-msgstr "Pokaż nazwę hosta"
-
-#. i18n: file: themeconfig.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, ThemeConfig)
-#: rc.cpp:11
-msgid "MainWindow"
-msgstr "GłówneOkno"
-
-#. i18n: file: coreconfig.ui:17
-#. i18n: ectx: property (text), widget (QCheckBox, allowGuest)
-#: rc.cpp:14
-msgid "Allow guest login"
-msgstr "Zezwól na logowanie gościa"
-
-#. i18n: file: coreconfig.ui:40
-#. i18n: ectx: property (text), widget (QCheckBox, autoLogin)
-#: rc.cpp:17
-msgid "Automatically log in:"
-msgstr "Zaloguj samoczynnie po:"
-
-#. i18n: file: coreconfig.ui:52
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:20
-msgid "As user:"
-msgstr "Jako użytkownik:"
-
-#. i18n: file: coreconfig.ui:69
-#. i18n: ectx: property (text), widget (QLabel, autoLoginSessionLabel)
-#: rc.cpp:23
-msgid "Using session:"
-msgstr "Używając sesji:"
-
-#. i18n: file: coreconfig.ui:86
-#. i18n: ectx: property (text), widget (QLabel, autoLoginTimeoutLabel)
-#: rc.cpp:26
-msgid "After:"
-msgstr "Po:"
-
-#. i18n: file: coreconfig.ui:99
-#. i18n: ectx: property (suffix), widget (QSpinBox, autoLoginTimeout)
-#: rc.cpp:29
-msgid " minutes"
-msgstr " minutach"
-
-#. i18n: file: coreconfig.ui:127
-#. i18n: ectx: property (text), widget (QCheckBox, enableXdmcp)
-#: rc.cpp:32
-msgid "XDMCP Server"
-msgstr "Serwer XDMCP"
-
-#. i18n: file: coreconfig.ui:142
-#. i18n: ectx: property (text), widget (KPushButton, kpushbutton)
-#. i18n: file: coreconfig.ui:179
-#. i18n: ectx: property (text), widget (KPushButton, kpushbutton_2)
-#: rc.cpp:35 rc.cpp:41
-msgid "Configure..."
-msgstr "Konfiguruj..."
-
-#. i18n: file: coreconfig.ui:164
-#. i18n: ectx: property (text), widget (QCheckBox, enableVnc)
-#: rc.cpp:38
-msgid "VNC Server"
-msgstr "Serwer VNC"
 
 #: configwidgets/selectimagebutton.cpp:40
 msgid "Load from file..."
@@ -114,6 +38,52 @@ msgstr "Wyczyść obraz"
 msgid "Select image"
 msgstr "Wybierz obraz"
 
+#. i18n: ectx: property (text), widget (QCheckBox, allowGuest)
+#: coreconfig.ui:17
+msgid "Allow guest login"
+msgstr "Zezwól na logowanie gościa"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoLogin)
+#: coreconfig.ui:40
+msgid "Automatically log in:"
+msgstr "Zaloguj samoczynnie po:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: coreconfig.ui:52
+msgid "As user:"
+msgstr "Jako użytkownik:"
+
+#. i18n: ectx: property (text), widget (QLabel, autoLoginSessionLabel)
+#: coreconfig.ui:69
+msgid "Using session:"
+msgstr "Używając sesji:"
+
+#. i18n: ectx: property (text), widget (QLabel, autoLoginTimeoutLabel)
+#: coreconfig.ui:86
+msgid "After:"
+msgstr "Po:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, autoLoginTimeout)
+#: coreconfig.ui:99
+msgid " minutes"
+msgstr " minutach"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableXdmcp)
+#: coreconfig.ui:127
+msgid "XDMCP Server"
+msgstr "Serwer XDMCP"
+
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton)
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton_2)
+#: coreconfig.ui:142 coreconfig.ui:179
+msgid "Configure..."
+msgstr "Konfiguruj..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableVnc)
+#: coreconfig.ui:164
+msgid "VNC Server"
+msgstr "Serwer VNC"
+
 #: lightdmkcm.cpp:47
 msgid "LightDM KDE Config"
 msgstr "Konfiguracja LightDM KDE"
@@ -125,6 +95,21 @@ msgstr "Motyw"
 #: lightdmkcm.cpp:70
 msgid "General"
 msgstr "Ogólne"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: sessionconfig.ui:27
+msgid "Background:"
+msgstr "Tło:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_hostname)
+#: sessionconfig.ui:37
+msgid "Show Hostname"
+msgstr "Pokaż nazwę hosta"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ThemeConfig)
+#: themeconfig.ui:14
+msgid "MainWindow"
+msgstr "GłówneOkno"
 
 #~ msgid "Form"
 #~ msgstr "Formularz"

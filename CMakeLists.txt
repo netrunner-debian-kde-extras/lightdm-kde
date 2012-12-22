@@ -3,7 +3,7 @@ project(greeter-app)
 # Versions
 set(LIGHTDM_KDE_VERSION_MAJOR 0)
 set(LIGHTDM_KDE_VERSION_MINOR 3)
-set(LIGHTDM_KDE_VERSION_PATCH 0)
+set(LIGHTDM_KDE_VERSION_PATCH 1)
 set(LIGHTDM_KDE_VERSION ${LIGHTDM_KDE_VERSION_MAJOR}.${LIGHTDM_KDE_VERSION_MINOR}.${LIGHTDM_KDE_VERSION_PATCH})
 
 # Packaging
@@ -32,8 +32,12 @@ set(LIGHTDM_CONFIG_DIR "/etc/lightdm"
     CACHE PATH "Directory where LightDM configuration files are kept")
 
 find_package(KDE4 REQUIRED)
+
+set(QLIGHTDM_MIN_VERSION 1.4.0)
 find_package(QLightDM REQUIRED)
+
 find_package(KDeclarative REQUIRED)
+
 include(KDE4Defaults)
 include(MacroLibrary)
 

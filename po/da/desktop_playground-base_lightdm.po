@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-10 04:05+0000\n"
+"POT-Creation-Date: 2012-12-05 02:18+0000\n"
 "PO-Revision-Date: 2012-04-21 10:40+0200\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -19,7 +19,7 @@ msgctxt "Name"
 msgid "LightDM KDE Greeter"
 msgstr "KDE-velkomstskærm til LightDM"
 
-#: greeter/lightdm-kde-greeter.desktop:16
+#: greeter/lightdm-kde-greeter.desktop:21
 msgctxt "Comment"
 msgid "This runs the KDE greeter, it should only be run from LightDM"
 msgstr "Dette kører KDE-velkomstskærmen, den skal kun køres fra LightDM"
@@ -29,22 +29,22 @@ msgctxt "Name"
 msgid "LightDM"
 msgstr "LightDM"
 
-#: kcm/kcm_lightdm.actions:25
+#: kcm/kcm_lightdm.actions:29
 msgctxt "Name"
 msgid "Save Theme Details"
 msgstr "Gem temadetaljer"
 
-#: kcm/kcm_lightdm.actions:42
+#: kcm/kcm_lightdm.actions:50
 msgctxt "Description"
 msgid "Save Theme Details in LightDM"
 msgstr "Gem temadetaljer i LightDM"
 
-#: kcm/kcm_lightdm.actions:63
+#: kcm/kcm_lightdm.actions:75
 msgctxt "Name"
 msgid "Save Settings"
 msgstr "Gem indstillinger"
 
-#: kcm/kcm_lightdm.actions:82
+#: kcm/kcm_lightdm.actions:98
 msgctxt "Description"
 msgid "Save Settings in LightDM"
 msgstr "Gem indstillinger i LightDM"
@@ -58,12 +58,12 @@ msgstr ""
 "lightdm,display manager,ansigt,bruger,brugere,login,velkomst,tema,sprog,"
 "session,sessioner,nedlukning,genstart,gæst,autologin"
 
-#: kcm/kcm_lightdm.desktop:28
+#: kcm/kcm_lightdm.desktop:31
 msgctxt "Name"
 msgid "Login Screen (LightDM)"
 msgstr "Login-skærm (LightDM)"
 
-#: kcm/kcm_lightdm.desktop:46
+#: kcm/kcm_lightdm.desktop:53
 msgctxt "Comment"
 msgid "Select login theme, adjust login features"
 msgstr "Vælg login-tema, tilpas login-funktioner"

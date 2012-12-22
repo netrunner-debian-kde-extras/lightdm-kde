@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:31+0200\n"
+"POT-Creation-Date: 2012-08-28 09:40+0200\n"
 "PO-Revision-Date: 2012-07-07 12:09+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -17,53 +17,52 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.4\n"
 
-#: main.qml:59
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config.ui:20
+#, fuzzy
+#| msgid "Background Image:"
+msgid "Background image:"
+msgstr "Imagen de fondo:"
+
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
+#: config.ui:30
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config.ui:37
+msgid "Keep aspect ratio:"
+msgstr ""
+
+#: main.qml:57
 msgid "Sorry, incorrect password. Please try again."
 msgstr "Contraseña incorrecta. Por favor, pruebe de nuevo."
 
-#: main.qml:107
+#: main.qml:106
 #, kde-format
 msgid "Welcome to %1"
 msgstr "Bienvenido a %1"
 
-#: main.qml:278
+#: main.qml:295
 msgid "Password"
 msgstr "Contraseña"
 
-#: main.qml:309
+#: main.qml:330
 msgid "Login"
 msgstr "Inicio de sesión"
 
-#: main.qml:361
+#: main.qml:382
 msgid "Suspend"
 msgstr "Suspender"
 
-#: main.qml:369
+#: main.qml:390
 msgid "Hibernate"
 msgstr "Hibernar"
 
-#: main.qml:378
+#: main.qml:399
 msgid "Restart"
 msgstr "Reiniciar"
 
-#: main.qml:386
+#: main.qml:407
 msgid "Shutdown"
 msgstr "Apagar"
-
-#. i18n: file: config.ui:20
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3
-msgid "Background Image:"
-msgstr "Imagen de fondo:"
-
-#. i18n: file: config.ui:30
-#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
-#: rc.cpp:6
-msgid "..."
-msgstr "..."
-
-#. i18n: file: config.ui:37
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:9
-msgid "Keep aspect ratio:"
-msgstr ""

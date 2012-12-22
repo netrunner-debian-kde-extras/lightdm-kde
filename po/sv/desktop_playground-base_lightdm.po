@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-10 04:05+0000\n"
+"POT-Creation-Date: 2012-12-05 02:18+0000\n"
 "PO-Revision-Date: 2012-04-12 18:28+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@comhem.se>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -19,7 +19,7 @@ msgctxt "Name"
 msgid "LightDM KDE Greeter"
 msgstr "LightDM KDE välkomstskärm"
 
-#: greeter/lightdm-kde-greeter.desktop:16
+#: greeter/lightdm-kde-greeter.desktop:21
 msgctxt "Comment"
 msgid "This runs the KDE greeter, it should only be run from LightDM"
 msgstr "Detta gör KDE:s välkomstskärm. Den ska bara köras från LightDM."
@@ -29,22 +29,22 @@ msgctxt "Name"
 msgid "LightDM"
 msgstr "LightDM"
 
-#: kcm/kcm_lightdm.actions:25
+#: kcm/kcm_lightdm.actions:29
 msgctxt "Name"
 msgid "Save Theme Details"
 msgstr "Spara temainställningen"
 
-#: kcm/kcm_lightdm.actions:42
+#: kcm/kcm_lightdm.actions:50
 msgctxt "Description"
 msgid "Save Theme Details in LightDM"
 msgstr "Spara temainformation i LightDM"
 
-#: kcm/kcm_lightdm.actions:63
+#: kcm/kcm_lightdm.actions:75
 msgctxt "Name"
 msgid "Save Settings"
 msgstr "Spara inställningar"
 
-#: kcm/kcm_lightdm.actions:82
+#: kcm/kcm_lightdm.actions:98
 msgctxt "Description"
 msgid "Save Settings in LightDM"
 msgstr "Spara inställningar i LightDM"
@@ -58,12 +58,12 @@ msgstr ""
 "lightdm,inloggningshanterare,ansikte,användare,inloggning,hälsning,tema,"
 "språk,session,sessioner,avstängning,omstart,gäst,automatisk inloggning"
 
-#: kcm/kcm_lightdm.desktop:28
+#: kcm/kcm_lightdm.desktop:31
 msgctxt "Name"
 msgid "Login Screen (LightDM)"
 msgstr "Inloggningsskärm (LightDM)"
 
-#: kcm/kcm_lightdm.desktop:46
+#: kcm/kcm_lightdm.desktop:53
 msgctxt "Comment"
 msgid "Select login theme, adjust login features"
 msgstr "Välj inloggningstema, justera inloggningsfunktioner"

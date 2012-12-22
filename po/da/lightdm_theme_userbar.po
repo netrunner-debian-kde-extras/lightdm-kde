@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:31+0200\n"
-"PO-Revision-Date: 2012-08-04 10:04+0200\n"
+"POT-Creation-Date: 2012-08-28 09:40+0200\n"
+"PO-Revision-Date: 2012-08-26 22:28+0200\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: \n"
@@ -17,53 +17,50 @@ msgstr ""
 "X-Generator: Lokalize 1.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: main.qml:59
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config.ui:20
+msgid "Background image:"
+msgstr "Baggrundsbillede:"
+
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
+#: config.ui:30
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config.ui:37
+msgid "Keep aspect ratio:"
+msgstr "Behold aspektforhold:"
+
+#: main.qml:57
 msgid "Sorry, incorrect password. Please try again."
 msgstr "Beklager, forkert adgangskode. Prøv igen."
 
-#: main.qml:107
+#: main.qml:106
 #, kde-format
 msgid "Welcome to %1"
 msgstr "Velkommen til %1"
 
-#: main.qml:278
+#: main.qml:295
 msgid "Password"
 msgstr "Adgangskode"
 
-#: main.qml:309
+#: main.qml:330
 msgid "Login"
 msgstr "Log ind"
 
-#: main.qml:361
+#: main.qml:382
 msgid "Suspend"
 msgstr "Suspendér"
 
-#: main.qml:369
+#: main.qml:390
 msgid "Hibernate"
 msgstr "Dvale"
 
-#: main.qml:378
+#: main.qml:399
 msgid "Restart"
 msgstr "Genstart"
 
-#: main.qml:386
+#: main.qml:407
 msgid "Shutdown"
 msgstr "Luk ned"
-
-#. i18n: file: config.ui:20
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3
-msgid "Background Image:"
-msgstr "Baggrundsbillede:"
-
-#. i18n: file: config.ui:30
-#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
-#: rc.cpp:6
-msgid "..."
-msgstr "..."
-
-#. i18n: file: config.ui:37
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:9
-msgid "Keep aspect ratio:"
-msgstr ""

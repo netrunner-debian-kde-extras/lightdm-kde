@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-10 04:05+0000\n"
+"POT-Creation-Date: 2012-12-05 02:18+0000\n"
 "PO-Revision-Date: 2012-06-28 18:23+0200\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -19,7 +19,7 @@ msgctxt "Name"
 msgid "LightDM KDE Greeter"
 msgstr "LightDM KDE üdvözlő"
 
-#: greeter/lightdm-kde-greeter.desktop:16
+#: greeter/lightdm-kde-greeter.desktop:21
 msgctxt "Comment"
 msgid "This runs the KDE greeter, it should only be run from LightDM"
 msgstr "Futtatja a KDE üdvözlőt, csak LightDM alól szabad futtatni"
@@ -29,22 +29,22 @@ msgctxt "Name"
 msgid "LightDM"
 msgstr "LightDM"
 
-#: kcm/kcm_lightdm.actions:25
+#: kcm/kcm_lightdm.actions:29
 msgctxt "Name"
 msgid "Save Theme Details"
 msgstr "Témajellemzők mentése"
 
-#: kcm/kcm_lightdm.actions:42
+#: kcm/kcm_lightdm.actions:50
 msgctxt "Description"
 msgid "Save Theme Details in LightDM"
 msgstr "Témajellemzők mentése a LightDM-be"
 
-#: kcm/kcm_lightdm.actions:63
+#: kcm/kcm_lightdm.actions:75
 msgctxt "Name"
 msgid "Save Settings"
 msgstr "A beállítások mentése"
 
-#: kcm/kcm_lightdm.actions:82
+#: kcm/kcm_lightdm.actions:98
 msgctxt "Description"
 msgid "Save Settings in LightDM"
 msgstr "A beállítások mentése a LightDM-be"
@@ -59,12 +59,12 @@ msgstr ""
 "üdvözlés, téma,nyelv,munkamenet,munkamenetek,leállítás,újraindítás,vendég,"
 "automatikus bejelentkezés"
 
-#: kcm/kcm_lightdm.desktop:28
+#: kcm/kcm_lightdm.desktop:31
 msgctxt "Name"
 msgid "Login Screen (LightDM)"
 msgstr "Bejelentkezési képernyő (LightDM)"
 
-#: kcm/kcm_lightdm.desktop:46
+#: kcm/kcm_lightdm.desktop:53
 msgctxt "Comment"
 msgid "Select login theme, adjust login features"
 msgstr ""

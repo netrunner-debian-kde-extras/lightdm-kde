@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-10 04:05+0000\n"
+"POT-Creation-Date: 2012-12-05 02:18+0000\n"
 "PO-Revision-Date: 2012-04-27 16:06+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -20,7 +20,7 @@ msgctxt "Name"
 msgid "LightDM KDE Greeter"
 msgstr "Program pozdrawiający LightDM KDE"
 
-#: greeter/lightdm-kde-greeter.desktop:16
+#: greeter/lightdm-kde-greeter.desktop:21
 msgctxt "Comment"
 msgid "This runs the KDE greeter, it should only be run from LightDM"
 msgstr ""
@@ -32,22 +32,22 @@ msgctxt "Name"
 msgid "LightDM"
 msgstr "LightDM"
 
-#: kcm/kcm_lightdm.actions:25
+#: kcm/kcm_lightdm.actions:29
 msgctxt "Name"
 msgid "Save Theme Details"
 msgstr "Zapisz szczegóły motywu"
 
-#: kcm/kcm_lightdm.actions:42
+#: kcm/kcm_lightdm.actions:50
 msgctxt "Description"
 msgid "Save Theme Details in LightDM"
 msgstr "Zapisz szczegóły motywu w LightDM"
 
-#: kcm/kcm_lightdm.actions:63
+#: kcm/kcm_lightdm.actions:75
 msgctxt "Name"
 msgid "Save Settings"
 msgstr "Zapisz ustawienia"
 
-#: kcm/kcm_lightdm.actions:82
+#: kcm/kcm_lightdm.actions:98
 msgctxt "Description"
 msgid "Save Settings in LightDM"
 msgstr "Zapisz ustawienia w LightDM"
@@ -62,12 +62,12 @@ msgstr ""
 "pozdrowienie,motyw,język,sesja,sesje,zamykanie,wyłączanie,restart,gość,"
 "samoczynne logowanie, ponowne uruchomienie"
 
-#: kcm/kcm_lightdm.desktop:28
+#: kcm/kcm_lightdm.desktop:31
 msgctxt "Name"
 msgid "Login Screen (LightDM)"
 msgstr "Ekran logowania(LightDM)"
 
-#: kcm/kcm_lightdm.desktop:46
+#: kcm/kcm_lightdm.desktop:53
 msgctxt "Comment"
 msgid "Select login theme, adjust login features"
 msgstr "Wybierz motyw logowania, dostosuj funkcje logowania"

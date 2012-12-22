@@ -1,86 +1,87 @@
 # KDE 4.9 Finnish translation sprint 2012-06/07
 # Author: Artnay
 # Author: Lliehu
+# Lasse Liehu <lasse.liehu@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: lightdm_theme_classic\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:31+0200\n"
-"PO-Revision-Date: 2012-07-04 13:39:10+0000\n"
-"Last-Translator: Ei tietoa\n"
+"POT-Creation-Date: 2012-08-20 06:44+0200\n"
+"PO-Revision-Date: 2012-08-20 08:52+0300\n"
+"Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-POT-Import-Date: 2012-06-15 08:58:10+0000\n"
-"X-Generator: MediaWiki 1.20alpha (r113129); Translate 2012-07-04\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config.ui:17
+#, fuzzy
+#| msgid "Background Image:"
+msgid "Background image:"
+msgstr "Taustakuva:"
+
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Logo)
+#: config.ui:27 config.ui:55
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: config.ui:34
+msgid "Keep aspect ratio:"
+msgstr "Säilytä kuvasuhde:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config.ui:48
+#, fuzzy
+#| msgid "Welcome Image:"
+msgid "Welcome image:"
+msgstr "Tervetulokuva:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: config.ui:62
+#, fuzzy
+#| msgid "Welcome Text:"
+msgid "Welcome text:"
+msgstr "Tervetuloteksti:"
 
 #: main.qml:60
 msgid "Sorry, incorrect password please try again."
 msgstr "Väärä salasana, yritä uudelleen."
 
-#: main.qml:119 main.qml:240
+#: main.qml:119 main.qml:239
 msgid "Log in as guest"
-msgstr ""
+msgstr "Kirjaudu vieraana"
 
 #: main.qml:141
 msgid "Username"
 msgstr "Käyttäjätunnus"
 
-#: main.qml:169
+#: main.qml:168
 msgid "Password"
 msgstr "Salasana"
 
-#: main.qml:249
+#: main.qml:248
 msgid "Session"
 msgstr "Istunto"
 
-#: main.qml:284
+#: main.qml:283
 msgid "Suspend"
 msgstr "Valmiustila"
 
-#: main.qml:291
+#: main.qml:290
 msgid "Hibernate"
 msgstr "Lepotila"
 
-#: main.qml:299
+#: main.qml:298
 msgid "Restart"
 msgstr "Käynnistä uudelleen"
 
-#: main.qml:306
+#: main.qml:305
 msgid "Shutdown"
 msgstr "Sammuta"
-
-#. i18n: file: config.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3
-msgid "Background Image:"
-msgstr "Taustakuva:"
-
-#. i18n: file: config.ui:27
-#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
-#. i18n: file: config.ui:55
-#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Logo)
-#: rc.cpp:6 rc.cpp:15
-msgid "..."
-msgstr "..."
-
-#. i18n: file: config.ui:34
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:9
-msgid "Keep aspect ratio:"
-msgstr ""
-
-#. i18n: file: config.ui:48
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:12
-msgid "Welcome Image:"
-msgstr "Tervetulokuva:"
-
-#. i18n: file: config.ui:62
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:18
-msgid "Welcome Text:"
-msgstr "Tervetuloteksti:"

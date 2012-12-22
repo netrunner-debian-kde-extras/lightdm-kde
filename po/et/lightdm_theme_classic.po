@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:31+0200\n"
-"PO-Revision-Date: 2012-05-28 17:19+0300\n"
+"POT-Creation-Date: 2012-08-20 06:44+0200\n"
+"PO-Revision-Date: 2012-10-11 03:39+0300\n"
 "Last-Translator: Marek Laane <bald@smail.ee>\n"
 "Language-Team: Estonian <kde-et@linux.ee>\n"
 "Language: et\n"
@@ -15,72 +15,66 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config.ui:17
+msgid "Background image:"
+msgstr "Taustapilt:"
+
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Logo)
+#: config.ui:27 config.ui:55
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: config.ui:34
+msgid "Keep aspect ratio:"
+msgstr "Proportsiooni säilitamine:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config.ui:48
+msgid "Welcome image:"
+msgstr "Tervituspilt:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: config.ui:62
+msgid "Welcome text:"
+msgstr "Tervitustekst:"
 
 #: main.qml:60
 msgid "Sorry, incorrect password please try again."
 msgstr "Vabandust, parool oli vale, palun proovi uuesti."
 
-#: main.qml:119 main.qml:240
+#: main.qml:119 main.qml:239
 msgid "Log in as guest"
-msgstr ""
+msgstr "Logi sisse külalisena"
 
 #: main.qml:141
 msgid "Username"
 msgstr "Kasutajanimi"
 
-#: main.qml:169
+#: main.qml:168
 msgid "Password"
 msgstr "Parool"
 
-#: main.qml:249
+#: main.qml:248
 msgid "Session"
 msgstr "Seanss"
 
-#: main.qml:284
+#: main.qml:283
 msgid "Suspend"
 msgstr "Passiivseisund"
 
-#: main.qml:291
+#: main.qml:290
 msgid "Hibernate"
 msgstr "Talveuni"
 
-#: main.qml:299
+#: main.qml:298
 msgid "Restart"
 msgstr "Taaskäivitus"
 
-#: main.qml:306
+#: main.qml:305
 msgid "Shutdown"
 msgstr "Seiskamine"
-
-#. i18n: file: config.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3
-msgid "Background Image:"
-msgstr "Taustapilt:"
-
-#. i18n: file: config.ui:27
-#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
-#. i18n: file: config.ui:55
-#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Logo)
-#: rc.cpp:6 rc.cpp:15
-msgid "..."
-msgstr "..."
-
-#. i18n: file: config.ui:34
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:9
-msgid "Keep aspect ratio:"
-msgstr ""
-
-#. i18n: file: config.ui:48
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:12
-msgid "Welcome Image:"
-msgstr "Tervituspilt:"
-
-#. i18n: file: config.ui:62
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:18
-msgid "Welcome Text:"
-msgstr "Tervitustekst:"

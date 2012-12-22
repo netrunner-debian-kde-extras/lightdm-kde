@@ -1,11 +1,12 @@
 # Vít Pelčák <vit@pelcak.org>, 2011, 2012.
+# Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-10 04:05+0000\n"
-"PO-Revision-Date: 2012-06-04 08:57+0200\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"POT-Creation-Date: 2012-12-05 02:18+0000\n"
+"PO-Revision-Date: 2012-10-31 10:58+0100\n"
+"Last-Translator: Tomáš Chvátal <tomas.chvatal@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -17,9 +18,9 @@ msgstr ""
 #: greeter/lightdm-kde-greeter.desktop:2
 msgctxt "Name"
 msgid "LightDM KDE Greeter"
-msgstr ""
+msgstr "Přihlašovací obrazovka LightDM KDE"
 
-#: greeter/lightdm-kde-greeter.desktop:16
+#: greeter/lightdm-kde-greeter.desktop:21
 msgctxt "Comment"
 msgid "This runs the KDE greeter, it should only be run from LightDM"
 msgstr ""
@@ -29,22 +30,22 @@ msgctxt "Name"
 msgid "LightDM"
 msgstr "LightDM"
 
-#: kcm/kcm_lightdm.actions:25
+#: kcm/kcm_lightdm.actions:29
 msgctxt "Name"
 msgid "Save Theme Details"
 msgstr "Uložit podrobnosti motivu"
 
-#: kcm/kcm_lightdm.actions:42
+#: kcm/kcm_lightdm.actions:50
 msgctxt "Description"
 msgid "Save Theme Details in LightDM"
 msgstr "Uložit podrobnosti v LightDM"
 
-#: kcm/kcm_lightdm.actions:63
+#: kcm/kcm_lightdm.actions:75
 msgctxt "Name"
 msgid "Save Settings"
 msgstr "Uložit nastavení"
 
-#: kcm/kcm_lightdm.actions:82
+#: kcm/kcm_lightdm.actions:98
 msgctxt "Description"
 msgid "Save Settings in LightDM"
 msgstr "Uložit nastavení v LightDM"
@@ -56,20 +57,12 @@ msgid ""
 "session,sessions,shutdown,restart,guest,auto login"
 msgstr ""
 
-#: kcm/kcm_lightdm.desktop:28
+#: kcm/kcm_lightdm.desktop:31
 msgctxt "Name"
 msgid "Login Screen (LightDM)"
 msgstr "Přihlašovací obrazovka (LightDM)"
 
-#: kcm/kcm_lightdm.desktop:46
+#: kcm/kcm_lightdm.desktop:53
 msgctxt "Comment"
 msgid "Select login theme, adjust login features"
-msgstr ""
-
-#~ msgctxt "Name"
-#~ msgid "Login Manager"
-#~ msgstr "Správce přihlášení"
-
-#~ msgctxt "Name"
-#~ msgid "Save Theme Config"
-#~ msgstr "Uložit nastavení motivu"
+msgstr "Zvolte motiv přihlášení, a upravte jeho vlastnosti"
