@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_playground-base_lightdm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-10 04:05+0000\n"
+"POT-Creation-Date: 2012-12-05 02:18+0000\n"
 "PO-Revision-Date: 2012-06-12 10:13+0700\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
 "Language-Team: Khmer\n"
@@ -20,7 +20,7 @@ msgctxt "Name"
 msgid "LightDM KDE Greeter"
 msgstr "សារស្វាគមន៍ LightDM KDE"
 
-#: greeter/lightdm-kde-greeter.desktop:16
+#: greeter/lightdm-kde-greeter.desktop:21
 msgctxt "Comment"
 msgid "This runs the KDE greeter, it should only be run from LightDM"
 msgstr "វា​ដំណើរការ​សារ​ស្វាគមន៍ KDE វាគួរ​តែ​ត្រូ​វបាន​ដំណើរការ​ពី LightDM"
@@ -30,22 +30,22 @@ msgctxt "Name"
 msgid "LightDM"
 msgstr "LightDM"
 
-#: kcm/kcm_lightdm.actions:25
+#: kcm/kcm_lightdm.actions:29
 msgctxt "Name"
 msgid "Save Theme Details"
 msgstr "រក្សាទុក​សេចក្ដី​លម្អិត​រូបរាង"
 
-#: kcm/kcm_lightdm.actions:42
+#: kcm/kcm_lightdm.actions:50
 msgctxt "Description"
 msgid "Save Theme Details in LightDM"
 msgstr "រក្សាទុក​សេចក្ដី​លម្អិត​រូបរាង​​នៅ​ក្នុង LightDM"
 
-#: kcm/kcm_lightdm.actions:63
+#: kcm/kcm_lightdm.actions:75
 msgctxt "Name"
 msgid "Save Settings"
 msgstr "រក្សាទុក​ការ​កំណត់"
 
-#: kcm/kcm_lightdm.actions:82
+#: kcm/kcm_lightdm.actions:98
 msgctxt "Description"
 msgid "Save Settings in LightDM"
 msgstr "រក្សាទុក​ការ​កំណត់​នៅ​ក្នុង LightDM"
@@ -59,12 +59,12 @@ msgstr ""
 "lightdm កម្មវិធី​គ្រប់គ្រង​ការ​បង្ហាញ មុខ អ្នក​ប្រើ អ្នក​ប្រើ ចូល ការ​ស្វាគមន៍ រូបរាង ភាសា សម័យ សម័យ "
 "បិទ ចាប់ផ្ដើម​ឡើងវិញ ភ្ញៀវ ចូល​ដោយ​ស្វ័យ​ប្រវត្តិ"
 
-#: kcm/kcm_lightdm.desktop:28
+#: kcm/kcm_lightdm.desktop:31
 msgctxt "Name"
 msgid "Login Screen (LightDM)"
 msgstr "សម័យ​ចូល (LightDM)"
 
-#: kcm/kcm_lightdm.desktop:46
+#: kcm/kcm_lightdm.desktop:53
 msgctxt "Comment"
 msgid "Select login theme, adjust login features"
 msgstr "ជ្រើស​រូបរាង​ចូល កែសម្រួល​លក្ខណៈ​ចូល"

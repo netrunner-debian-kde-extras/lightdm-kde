@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lightdm_theme_classic\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:31+0200\n"
+"POT-Creation-Date: 2012-08-20 06:44+0200\n"
 "PO-Revision-Date: 2012-07-31 09:30-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
@@ -17,11 +17,37 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
 "3 : 4\n"
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config.ui:17
+msgid "Background image:"
+msgstr "Íomhá chúlra:"
+
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Logo)
+#: config.ui:27 config.ui:55
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: config.ui:34
+msgid "Keep aspect ratio:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config.ui:48
+msgid "Welcome image:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: config.ui:62
+msgid "Welcome text:"
+msgstr ""
+
 #: main.qml:60
 msgid "Sorry, incorrect password please try again."
 msgstr ""
 
-#: main.qml:119 main.qml:240
+#: main.qml:119 main.qml:239
 msgid "Log in as guest"
 msgstr ""
 
@@ -29,58 +55,26 @@ msgstr ""
 msgid "Username"
 msgstr ""
 
-#: main.qml:169
+#: main.qml:168
 msgid "Password"
 msgstr "Focal Faire"
 
-#: main.qml:249
+#: main.qml:248
 msgid "Session"
 msgstr "Seisiún"
 
-#: main.qml:284
+#: main.qml:283
 msgid "Suspend"
 msgstr "Cuir ar fionraí"
 
-#: main.qml:291
+#: main.qml:290
 msgid "Hibernate"
 msgstr "Geimhrigh"
 
-#: main.qml:299
+#: main.qml:298
 msgid "Restart"
 msgstr "Atosaigh"
 
-#: main.qml:306
+#: main.qml:305
 msgid "Shutdown"
 msgstr "Múchadh"
-
-#. i18n: file: config.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3
-msgid "Background Image:"
-msgstr ""
-
-#. i18n: file: config.ui:27
-#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
-#. i18n: file: config.ui:55
-#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Logo)
-#: rc.cpp:6 rc.cpp:15
-msgid "..."
-msgstr "..."
-
-#. i18n: file: config.ui:34
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:9
-msgid "Keep aspect ratio:"
-msgstr ""
-
-#. i18n: file: config.ui:48
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:12
-msgid "Welcome Image:"
-msgstr ""
-
-#. i18n: file: config.ui:62
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:18
-msgid "Welcome Text:"
-msgstr ""

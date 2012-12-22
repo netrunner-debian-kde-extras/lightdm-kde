@@ -4,64 +4,61 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lightdm_theme_userbar\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:31+0200\n"
-"PO-Revision-Date: 2012-05-23 09:55+0100\n"
+"POT-Creation-Date: 2012-08-28 09:40+0200\n"
+"PO-Revision-Date: 2012-11-02 10:32+0100\n"
 "Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: main.qml:59
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config.ui:20
+msgid "Background image:"
+msgstr "Obrázok pozadia:"
+
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
+#: config.ui:30
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config.ui:37
+msgid "Keep aspect ratio:"
+msgstr "Zachovať pomer strán:"
+
+#: main.qml:57
 msgid "Sorry, incorrect password. Please try again."
 msgstr "Ľutujeme, nesprávne heslo, prosím skúste znova."
 
-#: main.qml:107
+#: main.qml:106
 #, kde-format
 msgid "Welcome to %1"
 msgstr "Vitajte v %1"
 
-#: main.qml:278
+#: main.qml:295
 msgid "Password"
 msgstr "Heslo"
 
-#: main.qml:309
+#: main.qml:330
 msgid "Login"
-msgstr ""
+msgstr "Prihlásenie"
 
-#: main.qml:361
+#: main.qml:382
 msgid "Suspend"
 msgstr "Uspať"
 
-#: main.qml:369
+#: main.qml:390
 msgid "Hibernate"
 msgstr "Hibernovať"
 
-#: main.qml:378
+#: main.qml:399
 msgid "Restart"
 msgstr "Reštart"
 
-#: main.qml:386
+#: main.qml:407
 msgid "Shutdown"
 msgstr "Vypnutie"
-
-#. i18n: file: config.ui:20
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3
-msgid "Background Image:"
-msgstr "Obrázok pozadia:"
-
-#. i18n: file: config.ui:30
-#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
-#: rc.cpp:6
-msgid "..."
-msgstr "..."
-
-#. i18n: file: config.ui:37
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:9
-msgid "Keep aspect ratio:"
-msgstr ""

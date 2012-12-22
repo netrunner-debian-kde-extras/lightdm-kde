@@ -1,0 +1,111 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Vincenzo Reale <smart2128@baslug.org>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_lightdm\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-19 05:54+0200\n"
+"PO-Revision-Date: 2012-10-05 09:02+0200\n"
+"Last-Translator: Vincenzo Reale <smart2128@baslug.org>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Vincenzo Reale"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "smart2128@baslug.org"
+
+#: configwidgets/selectimagebutton.cpp:40
+msgid "Load from file..."
+msgstr "Carica da file..."
+
+#: configwidgets/selectimagebutton.cpp:41
+msgid "Clear Image"
+msgstr "Cancella immagine"
+
+#: configwidgets/selectimagebutton.cpp:75
+msgid "Select image"
+msgstr "Seleziona l'immagine"
+
+#. i18n: ectx: property (text), widget (QCheckBox, allowGuest)
+#: coreconfig.ui:17
+msgid "Allow guest login"
+msgstr "Consenti l'accesso ospite"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoLogin)
+#: coreconfig.ui:40
+msgid "Automatically log in:"
+msgstr "Accesso automatico:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: coreconfig.ui:52
+msgid "As user:"
+msgstr "Con l'utente:"
+
+#. i18n: ectx: property (text), widget (QLabel, autoLoginSessionLabel)
+#: coreconfig.ui:69
+msgid "Using session:"
+msgstr "Sessione da utilizzare:"
+
+#. i18n: ectx: property (text), widget (QLabel, autoLoginTimeoutLabel)
+#: coreconfig.ui:86
+msgid "After:"
+msgstr "Dopo:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, autoLoginTimeout)
+#: coreconfig.ui:99
+msgid " minutes"
+msgstr " minuti"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableXdmcp)
+#: coreconfig.ui:127
+msgid "XDMCP Server"
+msgstr "Server XDMCP"
+
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton)
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton_2)
+#: coreconfig.ui:142 coreconfig.ui:179
+msgid "Configure..."
+msgstr "Configura..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableVnc)
+#: coreconfig.ui:164
+msgid "VNC Server"
+msgstr "Server VNC"
+
+#: lightdmkcm.cpp:47
+msgid "LightDM KDE Config"
+msgstr "Configurazione di LightDM per KDE"
+
+#: lightdmkcm.cpp:69
+msgid "Theme"
+msgstr "Tema"
+
+#: lightdmkcm.cpp:70
+msgid "General"
+msgstr "Generale"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: sessionconfig.ui:27
+msgid "Background:"
+msgstr "Sfondo:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_hostname)
+#: sessionconfig.ui:37
+msgid "Show Hostname"
+msgstr "Mostra nome host"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ThemeConfig)
+#: themeconfig.ui:14
+msgid "MainWindow"
+msgstr "Finestra principale"

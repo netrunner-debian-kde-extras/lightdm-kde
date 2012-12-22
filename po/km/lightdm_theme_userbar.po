@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lightdm_theme_userbar\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:31+0200\n"
+"POT-Creation-Date: 2012-08-28 09:40+0200\n"
 "PO-Revision-Date: 2012-07-09 10:00+0700\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros.info>\n"
@@ -20,53 +20,52 @@ msgstr ""
 "X-Language: km-KH\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: main.qml:59
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config.ui:20
+#, fuzzy
+#| msgid "Background Image:"
+msgid "Background image:"
+msgstr "រូបភាព​ផ្ទៃ​ខាងក្រោយ ៖"
+
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
+#: config.ui:30
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config.ui:37
+msgid "Keep aspect ratio:"
+msgstr ""
+
+#: main.qml:57
 msgid "Sorry, incorrect password. Please try again."
 msgstr "សូម​ទោស ពាក្យ​សម្ងាត់​មិន​ត្រឹមត្រូវ សូម​ព្យាយាម​ម្តងទៀត ។"
 
-#: main.qml:107
+#: main.qml:106
 #, kde-format
 msgid "Welcome to %1"
 msgstr "ស្វាគមន៍​មកកាន់ %1"
 
-#: main.qml:278
+#: main.qml:295
 msgid "Password"
 msgstr "ពាក្យ​សម្ងាត់"
 
-#: main.qml:309
+#: main.qml:330
 msgid "Login"
 msgstr "ចូល"
 
-#: main.qml:361
+#: main.qml:382
 msgid "Suspend"
 msgstr "ផ្អាក"
 
-#: main.qml:369
+#: main.qml:390
 msgid "Hibernate"
 msgstr "សម្អំ"
 
-#: main.qml:378
+#: main.qml:399
 msgid "Restart"
 msgstr "ចាប់ផ្ដើម​ឡើង​​វិញ"
 
-#: main.qml:386
+#: main.qml:407
 msgid "Shutdown"
 msgstr "បិទ"
-
-#. i18n: file: config.ui:20
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3
-msgid "Background Image:"
-msgstr "រូបភាព​ផ្ទៃ​ខាងក្រោយ ៖"
-
-#. i18n: file: config.ui:30
-#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
-#: rc.cpp:6
-msgid "..."
-msgstr "..."
-
-#. i18n: file: config.ui:37
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:9
-msgid "Keep aspect ratio:"
-msgstr ""

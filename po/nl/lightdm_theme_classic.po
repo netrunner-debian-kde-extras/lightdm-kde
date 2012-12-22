@@ -6,22 +6,48 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:31+0200\n"
-"PO-Revision-Date: 2012-08-16 10:38-0300\n"
+"POT-Creation-Date: 2012-08-20 06:44+0200\n"
+"PO-Revision-Date: 2012-08-21 23:16+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config.ui:17
+msgid "Background image:"
+msgstr "Achtergrondafbeelding:"
+
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Logo)
+#: config.ui:27 config.ui:55
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: config.ui:34
+msgid "Keep aspect ratio:"
+msgstr "Aspectverhouding behouden:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config.ui:48
+msgid "Welcome image:"
+msgstr "Welkomstafbeelding:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: config.ui:62
+msgid "Welcome text:"
+msgstr "Welkomsttekst:"
 
 #: main.qml:60
 msgid "Sorry, incorrect password please try again."
 msgstr "Onjuist wachtwoord, probeer het opnieuw."
 
-#: main.qml:119 main.qml:240
+#: main.qml:119 main.qml:239
 msgid "Log in as guest"
 msgstr "Meldt u aan als gast"
 
@@ -29,58 +55,26 @@ msgstr "Meldt u aan als gast"
 msgid "Username"
 msgstr "Gebruikersnaam"
 
-#: main.qml:169
+#: main.qml:168
 msgid "Password"
 msgstr "Wachtwoord"
 
-#: main.qml:249
+#: main.qml:248
 msgid "Session"
 msgstr "Sessie"
 
-#: main.qml:284
+#: main.qml:283
 msgid "Suspend"
 msgstr "Onderbreken"
 
-#: main.qml:291
+#: main.qml:290
 msgid "Hibernate"
 msgstr "Slaapstand"
 
-#: main.qml:299
+#: main.qml:298
 msgid "Restart"
 msgstr "Herstarten"
 
-#: main.qml:306
+#: main.qml:305
 msgid "Shutdown"
 msgstr "Afsluiten"
-
-#. i18n: file: config.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3
-msgid "Background Image:"
-msgstr "Achtergrondafbeelding:"
-
-#. i18n: file: config.ui:27
-#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
-#. i18n: file: config.ui:55
-#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Logo)
-#: rc.cpp:6 rc.cpp:15
-msgid "..."
-msgstr "..."
-
-#. i18n: file: config.ui:34
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:9
-msgid "Keep aspect ratio:"
-msgstr ""
-
-#. i18n: file: config.ui:48
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:12
-msgid "Welcome Image:"
-msgstr "Welkomstafbeelding:"
-
-#. i18n: file: config.ui:62
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:18
-msgid "Welcome Text:"
-msgstr "Welkomsttekst:"

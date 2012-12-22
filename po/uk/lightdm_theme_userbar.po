@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:31+0200\n"
-"PO-Revision-Date: 2012-08-18 10:13+0300\n"
+"POT-Creation-Date: 2012-08-28 09:40+0200\n"
+"PO-Revision-Date: 2012-08-20 09:34+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,53 +18,50 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: main.qml:59
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config.ui:20
+msgid "Background image:"
+msgstr "Зображення тла:"
+
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
+#: config.ui:30
+msgid "..."
+msgstr "…"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config.ui:37
+msgid "Keep aspect ratio:"
+msgstr "Зберігати співвідношення:"
+
+#: main.qml:57
 msgid "Sorry, incorrect password. Please try again."
 msgstr "Вибачте, вказано помилковий пароль. Будь ласка, повторіть спробу."
 
-#: main.qml:107
+#: main.qml:106
 #, kde-format
 msgid "Welcome to %1"
 msgstr "Вітаємо у %1"
 
-#: main.qml:278
+#: main.qml:295
 msgid "Password"
 msgstr "Пароль"
 
-#: main.qml:309
+#: main.qml:330
 msgid "Login"
 msgstr "Увійти"
 
-#: main.qml:361
+#: main.qml:382
 msgid "Suspend"
 msgstr "Призупинити"
 
-#: main.qml:369
+#: main.qml:390
 msgid "Hibernate"
 msgstr "Приспати"
 
-#: main.qml:378
+#: main.qml:399
 msgid "Restart"
 msgstr "Перезапустити"
 
-#: main.qml:386
+#: main.qml:407
 msgid "Shutdown"
 msgstr "Вимкнути"
-
-#. i18n: file: config.ui:20
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3
-msgid "Background Image:"
-msgstr "Зображення тла:"
-
-#. i18n: file: config.ui:30
-#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
-#: rc.cpp:6
-msgid "..."
-msgstr "…"
-
-#. i18n: file: config.ui:37
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:9
-msgid "Keep aspect ratio:"
-msgstr "Зберігати співвідношення:"
