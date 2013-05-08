@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-15 02:10+0000\n"
+"POT-Creation-Date: 2013-04-16 06:12+0000\n"
 "PO-Revision-Date: 2013-04-13 09:44+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@comhem.se>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -73,7 +73,7 @@ msgctxt "Name"
 msgid "User Bar"
 msgstr "Användarrad"
 
-#: themes/userbar/theme.desktop:11
+#: themes/userbar/theme.desktop:12
 msgctxt "Comment"
 msgid "Pick your user from the user bar."
 msgstr "Välj användare från användarraden."

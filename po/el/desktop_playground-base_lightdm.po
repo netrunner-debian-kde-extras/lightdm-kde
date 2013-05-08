@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-15 02:10+0000\n"
+"POT-Creation-Date: 2013-04-16 06:12+0000\n"
 "PO-Revision-Date: 2012-08-06 01:07+0300\n"
 "Last-Translator: Antonis Geralis <capoiosct@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-doc@kde.org>\n"
@@ -76,7 +76,7 @@ msgctxt "Name"
 msgid "User Bar"
 msgstr ""
 
-#: themes/userbar/theme.desktop:11
+#: themes/userbar/theme.desktop:12
 msgctxt "Comment"
 msgid "Pick your user from the user bar."
 msgstr ""
