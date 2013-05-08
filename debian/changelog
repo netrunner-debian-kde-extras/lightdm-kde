@@ -1,3 +1,9 @@
+lightdm-kde (0.3.2.1-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Ralf Jung <post@ralfj.de>  Wed, 08 May 2013 14:27:40 +0200
+
 lightdm-kde (0.3.1-1) unstable; urgency=low
 
   * New upstream release.
