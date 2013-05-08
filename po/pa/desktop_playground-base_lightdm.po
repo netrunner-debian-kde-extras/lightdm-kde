@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-15 02:10+0000\n"
+"POT-Creation-Date: 2013-04-16 06:12+0000\n"
 "PO-Revision-Date: 2012-12-20 09:05+0530\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
@@ -71,7 +71,7 @@ msgctxt "Name"
 msgid "User Bar"
 msgstr ""
 
-#: themes/userbar/theme.desktop:11
+#: themes/userbar/theme.desktop:12
 msgctxt "Comment"
 msgid "Pick your user from the user bar."
 msgstr ""
