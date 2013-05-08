@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 09:40+0200\n"
+"POT-Creation-Date: 2013-04-13 03:59+0200\n"
 "PO-Revision-Date: 2012-08-22 12:01+0200\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -42,26 +42,26 @@ msgstr "Helytelen jelszó, próbálja meg ismét."
 msgid "Welcome to %1"
 msgstr "Üdvözöljük! - %1"
 
-#: main.qml:295
+#: main.qml:307
 msgid "Password"
 msgstr "Jelszó"
 
-#: main.qml:330
+#: main.qml:342
 msgid "Login"
 msgstr "Bejelentkezés"
 
-#: main.qml:382
+#: main.qml:393
 msgid "Suspend"
 msgstr "Felfüggesztés"
 
-#: main.qml:390
+#: main.qml:401
 msgid "Hibernate"
 msgstr "Hibernálás"
 
-#: main.qml:399
+#: main.qml:410
 msgid "Restart"
 msgstr "Újraindítás"
 
-#: main.qml:407
+#: main.qml:418
 msgid "Shutdown"
 msgstr "Leállítás"

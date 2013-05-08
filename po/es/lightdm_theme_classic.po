@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Eloy Cuadra <ecuadra@eloihr.net>, 2012.
+# Eloy Cuadra <ecuadra@eloihr.net>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-08-20 06:44+0200\n"
-"PO-Revision-Date: 2012-07-07 12:08+0200\n"
+"PO-Revision-Date: 2013-04-11 12:31+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -15,12 +15,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: config.ui:17
-#, fuzzy
-#| msgid "Background Image:"
 msgid "Background image:"
 msgstr "Imagen de fondo:"
 
@@ -33,19 +31,15 @@ msgstr "..."
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: config.ui:34
 msgid "Keep aspect ratio:"
-msgstr ""
+msgstr "Mantener las proporciones:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: config.ui:48
-#, fuzzy
-#| msgid "Welcome Image:"
 msgid "Welcome image:"
 msgstr "Imagen de bienvenida:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: config.ui:62
-#, fuzzy
-#| msgid "Welcome Text:"
 msgid "Welcome text:"
 msgstr "Texto de bienvenida:"
 
@@ -55,7 +49,7 @@ msgstr "Contraseña incorrecta. Por favor, pruebe de nuevo."
 
 #: main.qml:119 main.qml:239
 msgid "Log in as guest"
-msgstr ""
+msgstr "Iniciar sesión como invitado"
 
 #: main.qml:141
 msgid "Username"

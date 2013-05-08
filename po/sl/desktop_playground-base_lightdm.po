@@ -1,0 +1,80 @@
+# Andrej Mernik <andrejm@ubuntu.si>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-04-15 02:10+0000\n"
+"PO-Revision-Date: 2013-02-10 20:02+0100\n"
+"Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: greeter/lightdm-kde-greeter.desktop:2
+msgctxt "Name"
+msgid "LightDM KDE Greeter"
+msgstr "Pozdravni zaslon LightDM KDE"
+
+#: greeter/lightdm-kde-greeter.desktop:30
+msgctxt "Comment"
+msgid "This runs the KDE greeter, it should only be run from LightDM"
+msgstr "To zažene pozdravni zaslon KDE. Zagnan naj bi bil le iz LightDM"
+
+#: kcm/kcm_lightdm.actions:2
+msgctxt "Name"
+msgid "LightDM"
+msgstr "LightDM"
+
+#: kcm/kcm_lightdm.actions:36
+msgctxt "Name"
+msgid "Save Theme Details"
+msgstr "Shrani podrobnosti o temi"
+
+#: kcm/kcm_lightdm.actions:66
+msgctxt "Description"
+msgid "Save Theme Details in LightDM"
+msgstr "Shrani podrobnosti o temi v LightDM"
+
+#: kcm/kcm_lightdm.actions:99
+msgctxt "Name"
+msgid "Save Settings"
+msgstr "Shrani nastavitve"
+
+#: kcm/kcm_lightdm.actions:129
+msgctxt "Description"
+msgid "Save Settings in LightDM"
+msgstr "Shrani nastavitve v LightDM"
+
+#: kcm/kcm_lightdm.desktop:13
+msgctxt "X-KDE-Keywords"
+msgid ""
+"lightdm,display manager,face,user,users,login,greeting,theme,language,"
+"session,sessions,shutdown,restart,guest,auto login"
+msgstr ""
+"lightdm,upravljalnik namizja,obraz,uporabnik,uporabniki,prijava,pozdrav,tema,"
+"jezik,seja,seje,izklopi,znova zaženi,gost,samodejna prijava"
+
+#: kcm/kcm_lightdm.desktop:39
+msgctxt "Name"
+msgid "Login Screen (LightDM)"
+msgstr "Prijavni zaslon (LightDM)"
+
+#: kcm/kcm_lightdm.desktop:69
+msgctxt "Comment"
+msgid "Select login theme, adjust login features"
+msgstr "Izberite temo prijave, prilagodite zmožnosti prijave"
+
+#: themes/userbar/theme.desktop:2
+msgctxt "Name"
+msgid "User Bar"
+msgstr ""
+
+#: themes/userbar/theme.desktop:11
+msgctxt "Comment"
+msgid "Pick your user from the user bar."
+msgstr ""

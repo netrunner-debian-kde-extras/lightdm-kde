@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-12-05 02:18+0000\n"
+"POT-Creation-Date: 2013-04-15 02:10+0000\n"
 "PO-Revision-Date: 2012-10-05 09:55+0300\n"
 "Last-Translator: Liudas Ališauskas <liudas.alisauskas@gmail.com>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -20,7 +20,7 @@ msgctxt "Name"
 msgid "LightDM KDE Greeter"
 msgstr "LightDM KDE Sveikintojas"
 
-#: greeter/lightdm-kde-greeter.desktop:21
+#: greeter/lightdm-kde-greeter.desktop:30
 msgctxt "Comment"
 msgid "This runs the KDE greeter, it should only be run from LightDM"
 msgstr ""
@@ -31,22 +31,22 @@ msgctxt "Name"
 msgid "LightDM"
 msgstr "LightDM"
 
-#: kcm/kcm_lightdm.actions:29
+#: kcm/kcm_lightdm.actions:36
 msgctxt "Name"
 msgid "Save Theme Details"
 msgstr "Išsaugoti temos detales"
 
-#: kcm/kcm_lightdm.actions:50
+#: kcm/kcm_lightdm.actions:66
 msgctxt "Description"
 msgid "Save Theme Details in LightDM"
 msgstr "Išsaugoti temos detales į LightDM"
 
-#: kcm/kcm_lightdm.actions:75
+#: kcm/kcm_lightdm.actions:99
 msgctxt "Name"
 msgid "Save Settings"
 msgstr "Išsaugoti nustatymus"
 
-#: kcm/kcm_lightdm.actions:98
+#: kcm/kcm_lightdm.actions:129
 msgctxt "Description"
 msgid "Save Settings in LightDM"
 msgstr "Išsaugoti nustatymus į LightDM"
@@ -61,12 +61,22 @@ msgstr ""
 "sveikinimas,tema,kalba,sesija,sesijos,išjungti,paleisti iš naujo,svečias,"
 "automatinis prisijungimas"
 
-#: kcm/kcm_lightdm.desktop:31
+#: kcm/kcm_lightdm.desktop:39
 msgctxt "Name"
 msgid "Login Screen (LightDM)"
 msgstr "Prisijungimo langas (LightDM)"
 
-#: kcm/kcm_lightdm.desktop:53
+#: kcm/kcm_lightdm.desktop:69
 msgctxt "Comment"
 msgid "Select login theme, adjust login features"
 msgstr "Pasirink prisijungimo temą, pritaikyti prisijungimo savybes"
+
+#: themes/userbar/theme.desktop:2
+msgctxt "Name"
+msgid "User Bar"
+msgstr ""
+
+#: themes/userbar/theme.desktop:11
+msgctxt "Comment"
+msgid "Pick your user from the user bar."
+msgstr ""

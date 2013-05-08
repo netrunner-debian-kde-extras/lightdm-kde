@@ -1,0 +1,81 @@
+# Volkan Gezer <volkangezer@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-04-15 02:10+0000\n"
+"PO-Revision-Date: 2013-02-05 22:43+0100\n"
+"Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: greeter/lightdm-kde-greeter.desktop:2
+msgctxt "Name"
+msgid "LightDM KDE Greeter"
+msgstr "LightDM KDE Karşılayıcısı"
+
+#: greeter/lightdm-kde-greeter.desktop:30
+msgctxt "Comment"
+msgid "This runs the KDE greeter, it should only be run from LightDM"
+msgstr ""
+"Bu KDE karşılayıcısını çalıştırır. Sadece LightDM tarafından "
+"çalıştırılmalıdır"
+
+#: kcm/kcm_lightdm.actions:2
+msgctxt "Name"
+msgid "LightDM"
+msgstr "LightDM"
+
+#: kcm/kcm_lightdm.actions:36
+msgctxt "Name"
+msgid "Save Theme Details"
+msgstr "Tema Ayrıntılarını Kaydet"
+
+#: kcm/kcm_lightdm.actions:66
+msgctxt "Description"
+msgid "Save Theme Details in LightDM"
+msgstr "LightDM içerisinde Tema Ayrıntılarını Kaydet"
+
+#: kcm/kcm_lightdm.actions:99
+msgctxt "Name"
+msgid "Save Settings"
+msgstr "Ayarları Kaydet"
+
+#: kcm/kcm_lightdm.actions:129
+msgctxt "Description"
+msgid "Save Settings in LightDM"
+msgstr "LightDM içerisinde Ayarları Kaydet"
+
+#: kcm/kcm_lightdm.desktop:13
+msgctxt "X-KDE-Keywords"
+msgid ""
+"lightdm,display manager,face,user,users,login,greeting,theme,language,"
+"session,sessions,shutdown,restart,guest,auto login"
+msgstr ""
+"lightdm,gösterge yöneticisi,yüz,kullanıcı,kullanıcılar,oturum açma,karşılama,"
+"tema,dil,oturum,oturumlar,kapatma,yeniden başlatma,misafit,otomatik oturum aç"
+
+#: kcm/kcm_lightdm.desktop:39
+msgctxt "Name"
+msgid "Login Screen (LightDM)"
+msgstr "Oturum Ekranı (LightDM)"
+
+#: kcm/kcm_lightdm.desktop:69
+msgctxt "Comment"
+msgid "Select login theme, adjust login features"
+msgstr "Oturum açma temasını seçin, oturum açma özelliklerini ayarlayın"
+
+#: themes/userbar/theme.desktop:2
+msgctxt "Name"
+msgid "User Bar"
+msgstr ""
+
+#: themes/userbar/theme.desktop:11
+msgctxt "Comment"
+msgid "Pick your user from the user bar."
+msgstr ""

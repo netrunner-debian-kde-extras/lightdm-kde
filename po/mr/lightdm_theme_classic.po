@@ -1,0 +1,80 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Chetan Khona <chetan@kompkin.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 06:44+0200\n"
+"PO-Revision-Date: 2013-04-02 14:08+0530\n"
+"Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
+"Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config.ui:17
+msgid "Background image:"
+msgstr "पार्श्वभूमी प्रतिमा :"
+
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Logo)
+#: config.ui:27 config.ui:55
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: config.ui:34
+msgid "Keep aspect ratio:"
+msgstr "स्वरूपाचे गुणोत्तर ठेवा:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config.ui:48
+msgid "Welcome image:"
+msgstr "स्वागत प्रतिमा :"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: config.ui:62
+msgid "Welcome text:"
+msgstr "स्वागत मजकूर :"
+
+#: main.qml:60
+msgid "Sorry, incorrect password please try again."
+msgstr "क्षमस्व, अयोग्य गुप्तशब्द. कृपया पुन्हा प्रयत्न करा."
+
+#: main.qml:119 main.qml:239
+msgid "Log in as guest"
+msgstr "पाहुण्या प्रमाणे प्रवेश करा"
+
+#: main.qml:141
+msgid "Username"
+msgstr "वापरकर्ता नाव"
+
+#: main.qml:168
+msgid "Password"
+msgstr "गुप्तशब्द"
+
+#: main.qml:248
+msgid "Session"
+msgstr "सत्र"
+
+#: main.qml:283
+msgid "Suspend"
+msgstr "अकार्यक्षम करा"
+
+#: main.qml:290
+msgid "Hibernate"
+msgstr "संगणक गोठवा"
+
+#: main.qml:298
+msgid "Restart"
+msgstr "पुन्हा सुरु करा"
+
+#: main.qml:305
+msgid "Shutdown"
+msgstr "बंद करा"

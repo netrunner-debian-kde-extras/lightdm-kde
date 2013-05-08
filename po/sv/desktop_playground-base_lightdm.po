@@ -1,10 +1,10 @@
-# Stefan Asserhall <stefan.asserhall@comhem.se>, 2011, 2012.
+# Stefan Asserhall <stefan.asserhall@comhem.se>, 2011, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-12-05 02:18+0000\n"
-"PO-Revision-Date: 2012-04-12 18:28+0200\n"
+"POT-Creation-Date: 2013-04-15 02:10+0000\n"
+"PO-Revision-Date: 2013-04-13 09:44+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@comhem.se>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,7 +19,7 @@ msgctxt "Name"
 msgid "LightDM KDE Greeter"
 msgstr "LightDM KDE välkomstskärm"
 
-#: greeter/lightdm-kde-greeter.desktop:21
+#: greeter/lightdm-kde-greeter.desktop:30
 msgctxt "Comment"
 msgid "This runs the KDE greeter, it should only be run from LightDM"
 msgstr "Detta gör KDE:s välkomstskärm. Den ska bara köras från LightDM."
@@ -29,22 +29,22 @@ msgctxt "Name"
 msgid "LightDM"
 msgstr "LightDM"
 
-#: kcm/kcm_lightdm.actions:29
+#: kcm/kcm_lightdm.actions:36
 msgctxt "Name"
 msgid "Save Theme Details"
 msgstr "Spara temainställningen"
 
-#: kcm/kcm_lightdm.actions:50
+#: kcm/kcm_lightdm.actions:66
 msgctxt "Description"
 msgid "Save Theme Details in LightDM"
 msgstr "Spara temainformation i LightDM"
 
-#: kcm/kcm_lightdm.actions:75
+#: kcm/kcm_lightdm.actions:99
 msgctxt "Name"
 msgid "Save Settings"
 msgstr "Spara inställningar"
 
-#: kcm/kcm_lightdm.actions:98
+#: kcm/kcm_lightdm.actions:129
 msgctxt "Description"
 msgid "Save Settings in LightDM"
 msgstr "Spara inställningar i LightDM"
@@ -58,15 +58,25 @@ msgstr ""
 "lightdm,inloggningshanterare,ansikte,användare,inloggning,hälsning,tema,"
 "språk,session,sessioner,avstängning,omstart,gäst,automatisk inloggning"
 
-#: kcm/kcm_lightdm.desktop:31
+#: kcm/kcm_lightdm.desktop:39
 msgctxt "Name"
 msgid "Login Screen (LightDM)"
 msgstr "Inloggningsskärm (LightDM)"
 
-#: kcm/kcm_lightdm.desktop:53
+#: kcm/kcm_lightdm.desktop:69
 msgctxt "Comment"
 msgid "Select login theme, adjust login features"
 msgstr "Välj inloggningstema, justera inloggningsfunktioner"
+
+#: themes/userbar/theme.desktop:2
+msgctxt "Name"
+msgid "User Bar"
+msgstr "Användarrad"
+
+#: themes/userbar/theme.desktop:11
+msgctxt "Comment"
+msgid "Pick your user from the user bar."
+msgstr "Välj användare från användarraden."
 
 #~ msgctxt "Name"
 #~ msgid "Login Manager"
