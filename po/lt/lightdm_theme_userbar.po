@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 09:40+0200\n"
+"POT-Creation-Date: 2013-04-13 03:59+0200\n"
 "PO-Revision-Date: 2012-10-05 10:00+0300\n"
 "Last-Translator: Liudas Ališauskas <liudas.alisauskas@gmail.com>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -44,26 +44,26 @@ msgstr "Atsiprašome, neteisingas slaptažodis, prašome bandyti iš naujo."
 msgid "Welcome to %1"
 msgstr "Jus sveikina %1"
 
-#: main.qml:295
+#: main.qml:307
 msgid "Password"
 msgstr "Slaptažodis"
 
-#: main.qml:330
+#: main.qml:342
 msgid "Login"
 msgstr "Prisijungti"
 
-#: main.qml:382
+#: main.qml:393
 msgid "Suspend"
 msgstr "Sustabdyti"
 
-#: main.qml:390
+#: main.qml:401
 msgid "Hibernate"
 msgstr "Sustabdyti į diską"
 
-#: main.qml:399
+#: main.qml:410
 msgid "Restart"
 msgstr "Paleisti iš naujo"
 
-#: main.qml:407
+#: main.qml:418
 msgid "Shutdown"
 msgstr "Išjungti"

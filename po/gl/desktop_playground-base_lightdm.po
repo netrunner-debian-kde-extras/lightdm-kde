@@ -1,0 +1,83 @@
+# Marce Villarino <mvillarino@kde-espana.es>, 2013.
+# Miguel Branco <mgl.branco@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-04-15 02:10+0000\n"
+"PO-Revision-Date: 2013-01-27 19:50+0100\n"
+"Last-Translator: Miguel Branco <mgl.branco@gmail.com>\n"
+"Language-Team: Galician <proxecto@trasno.net>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: \n"
+"X-Text-Markup: \n"
+
+#: greeter/lightdm-kde-greeter.desktop:2
+msgctxt "Name"
+msgid "LightDM KDE Greeter"
+msgstr "LightDM KDE Greeter"
+
+#: greeter/lightdm-kde-greeter.desktop:30
+msgctxt "Comment"
+msgid "This runs the KDE greeter, it should only be run from LightDM"
+msgstr "Isto executa o KDE greeter, que só se debe executar dende LightDM"
+
+#: kcm/kcm_lightdm.actions:2
+msgctxt "Name"
+msgid "LightDM"
+msgstr "LightDM"
+
+#: kcm/kcm_lightdm.actions:36
+msgctxt "Name"
+msgid "Save Theme Details"
+msgstr "Gardar os detalles do tema"
+
+#: kcm/kcm_lightdm.actions:66
+msgctxt "Description"
+msgid "Save Theme Details in LightDM"
+msgstr "Gardar os detalles do tema en LightDM"
+
+#: kcm/kcm_lightdm.actions:99
+msgctxt "Name"
+msgid "Save Settings"
+msgstr "Gardar a configuración"
+
+#: kcm/kcm_lightdm.actions:129
+msgctxt "Description"
+msgid "Save Settings in LightDM"
+msgstr "Gardar as configuracións en LightDM"
+
+#: kcm/kcm_lightdm.desktop:13
+msgctxt "X-KDE-Keywords"
+msgid ""
+"lightdm,display manager,face,user,users,login,greeting,theme,language,"
+"session,sessions,shutdown,restart,guest,auto login"
+msgstr ""
+"lightdm,xestor de pantalla,interface,usuario,usuarios,identificación,benvida,"
+"tema,linguaxe,sesion,sesións,apagado,reinicio,convidado,rexistro automático"
+
+#: kcm/kcm_lightdm.desktop:39
+msgctxt "Name"
+msgid "Login Screen (LightDM)"
+msgstr "Pantalla de rexistro (LightDM)"
+
+#: kcm/kcm_lightdm.desktop:69
+msgctxt "Comment"
+msgid "Select login theme, adjust login features"
+msgstr "Escoller o tema e axustar as características do rexistro"
+
+#: themes/userbar/theme.desktop:2
+msgctxt "Name"
+msgid "User Bar"
+msgstr ""
+
+#: themes/userbar/theme.desktop:11
+msgctxt "Comment"
+msgid "Pick your user from the user bar."
+msgstr ""

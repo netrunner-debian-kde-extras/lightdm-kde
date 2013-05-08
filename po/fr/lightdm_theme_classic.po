@@ -1,14 +1,14 @@
 # translation of lightdm_theme_classic.po to Français
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
+# Joëlle Cornavin <jcorn@free.fr>, 2012, 2013.
 #
-# Joëlle Cornavin <jcorn@free.fr>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: lightdm_theme_classic\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-08-20 06:44+0200\n"
-"PO-Revision-Date: 2012-08-20 13:02+0200\n"
+"PO-Revision-Date: 2013-02-22 19:21+0100\n"
 "Last-Translator: Joëlle Cornavin <jcorn@free.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -16,11 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.4\n"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: config.ui:17
-#, fuzzy
-#| msgid "Background Image:"
 msgid "Background image:"
 msgstr "Image de fond :"
 
@@ -37,15 +36,11 @@ msgstr "Conserver le rapport hauteur / largeur :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: config.ui:48
-#, fuzzy
-#| msgid "Welcome Image:"
 msgid "Welcome image:"
 msgstr "Page d'accueil :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: config.ui:62
-#, fuzzy
-#| msgid "Welcome Text:"
 msgid "Welcome text:"
 msgstr "Texte d'accueil :"
 

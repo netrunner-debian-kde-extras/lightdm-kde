@@ -1,0 +1,84 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Marce Villarino <mvillarino@kde-espana.es>, 2013.
+# Miguel Branco <mgl.branco@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 06:44+0200\n"
+"PO-Revision-Date: 2013-01-28 00:01+0100\n"
+"Last-Translator: Miguel Branco <mgl.branco@gmail.com>\n"
+"Language-Team: Galician <proxecto@trasno.net>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config.ui:17
+msgid "Background image:"
+msgstr "Imaxe de fondo:"
+
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
+#. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Logo)
+#: config.ui:27 config.ui:55
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: config.ui:34
+msgid "Keep aspect ratio:"
+msgstr "Manter as proporcións:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config.ui:48
+msgid "Welcome image:"
+msgstr "Imaxe de benvida:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: config.ui:62
+msgid "Welcome text:"
+msgstr "Texto de benvida:"
+
+#: main.qml:60
+msgid "Sorry, incorrect password please try again."
+msgstr "O contrasinal non é o correcto. Inténtao de novo."
+
+#: main.qml:119 main.qml:239
+msgid "Log in as guest"
+msgstr "Rexistrarse como convidado"
+
+#: main.qml:141
+msgid "Username"
+msgstr "Nome de usuario"
+
+#: main.qml:168
+msgid "Password"
+msgstr "Contrasinal"
+
+#: main.qml:248
+msgid "Session"
+msgstr "Sesión"
+
+#: main.qml:283
+msgid "Suspend"
+msgstr "Suspender"
+
+#: main.qml:290
+msgid "Hibernate"
+msgstr "Hibernar"
+
+#: main.qml:298
+msgid "Restart"
+msgstr "Reiniciar"
+
+#: main.qml:305
+msgid "Shutdown"
+msgstr "Apagar"

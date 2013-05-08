@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lightdm_theme_userbar\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 09:40+0200\n"
+"POT-Creation-Date: 2013-04-13 03:59+0200\n"
 "PO-Revision-Date: 2012-07-09 10:00+0700\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros.info>\n"
@@ -46,26 +46,26 @@ msgstr "សូម​ទោស ពាក្យ​សម្ងាត់​មិ�
 msgid "Welcome to %1"
 msgstr "ស្វាគមន៍​មកកាន់ %1"
 
-#: main.qml:295
+#: main.qml:307
 msgid "Password"
 msgstr "ពាក្យ​សម្ងាត់"
 
-#: main.qml:330
+#: main.qml:342
 msgid "Login"
 msgstr "ចូល"
 
-#: main.qml:382
+#: main.qml:393
 msgid "Suspend"
 msgstr "ផ្អាក"
 
-#: main.qml:390
+#: main.qml:401
 msgid "Hibernate"
 msgstr "សម្អំ"
 
-#: main.qml:399
+#: main.qml:410
 msgid "Restart"
 msgstr "ចាប់ផ្ដើម​ឡើង​​វិញ"
 
-#: main.qml:407
+#: main.qml:418
 msgid "Shutdown"
 msgstr "បិទ"
