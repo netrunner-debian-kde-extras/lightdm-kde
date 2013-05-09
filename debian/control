@@ -8,7 +8,7 @@ Build-Depends:
     pkg-kde-tools,
     cmake,
     pkg-config,
-    liblightdm-qt-dev (>= 1.1.2),
+    liblightdm-qt-dev (>= 1.4),
     libx11-dev,
     kdelibs5-dev
 Standards-Version: 3.9.3
