@@ -1,6 +1,8 @@
 lightdm-kde (0.3.2.1-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Break lightdm (<< 1.6.0-3) as the combination of lightdm 1.6.0-2,
+    liblightdm-qt 1.6.0-3 and lightdm-kde does not work (see #708035).
 
  -- Ralf Jung <post@ralfj.de>  Wed, 08 May 2013 14:27:40 +0200
 
