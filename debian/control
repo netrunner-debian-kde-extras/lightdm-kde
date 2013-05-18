@@ -22,7 +22,6 @@ Depends: ${misc:Depends},
          ${shlibs:Depends},
          lightdm
 Recommends: desktop-base
-Breaks: lightdm (<< 1.6.0-3)
 Provides: lightdm-greeter
 Description: LightDM KDE greeter
  A LightDM greeter using KDE libraries. This package also includes a KCM
