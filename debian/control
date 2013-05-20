@@ -11,7 +11,7 @@ Build-Depends:
     liblightdm-qt-dev (>= 1.4),
     libx11-dev,
     kdelibs5-dev
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: https://projects.kde.org/projects/playground/base/lightdm
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/lightdm-kde.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/lightdm-kde.git
