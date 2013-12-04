@@ -2,7 +2,8 @@ lightdm-kde (0.3.2.1-2) UNRELEASED; urgency=low
 
   * Update Standards-Version to 3.9.4. No changes needed.
   * change git URLs to canonical alioth URLs
-  * Add patch from upstream to make it compile with latest liblightdqm-qt (Closes: #730930)
+  * Add patch from upstream to make it compile with latest liblightdqm-qt
+    (Closes: #730930)
 
  -- Ralf Jung <post@ralfj.de>  Mon, 20 May 2013 10:31:05 +0200
 
