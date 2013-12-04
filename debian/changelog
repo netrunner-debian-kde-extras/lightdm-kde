@@ -1,11 +1,11 @@
-lightdm-kde (0.3.2.1-2) UNRELEASED; urgency=low
+lightdm-kde (0.3.2.1-2) unstable; urgency=medium
 
   * Update Standards-Version to 3.9.4. No changes needed.
   * change git URLs to canonical alioth URLs
   * Add patch from upstream to make it compile with latest liblightdqm-qt
     (Closes: #730930)
 
- -- Ralf Jung <post@ralfj.de>  Mon, 20 May 2013 10:31:05 +0200
+ -- Ralf Jung <post@ralfj.de>  Wed, 04 Dec 2013 22:24:46 +0100
 
 lightdm-kde (0.3.2.1-1) unstable; urgency=low
 
