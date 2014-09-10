@@ -1,67 +1,66 @@
-# KDE Finnish translation sprint participants:
-# Author: Artnay
-# Author: Lliehu
-# Lasse Liehu <lasse.liehu@gmail.com>, 2012, 2013.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# FengChao <rainofchaos@gmail.com>, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: lightdm_theme_userbar\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-04-13 03:59+0200\n"
-"PO-Revision-Date: 2013-12-22 14:03+0200\n"
-"Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
-"Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
-"Language: fi\n"
+"PO-Revision-Date: 2013-09-15 18:47+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-POT-Import-Date: 2012-12-01 22:26:33+0000\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 1.5\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: config.ui:20
 msgid "Background image:"
-msgstr "Taustakuva:"
+msgstr "背景图片："
 
 #. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Background)
 #: config.ui:30
 msgid "..."
-msgstr "…"
+msgstr "..."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: config.ui:37
 msgid "Keep aspect ratio:"
-msgstr "Säilytä kuvasuhde:"
+msgstr "保持纵横比:"
 
 #: main.qml:57
 msgid "Sorry, incorrect password. Please try again."
-msgstr "Väärä salasana, yritä uudelleen."
+msgstr "密码错误，请重试。"
 
 #: main.qml:106
 #, kde-format
 msgid "Welcome to %1"
-msgstr "Tervetuloa – %1"
+msgstr "欢迎使用 %1"
 
 #: main.qml:307
 msgid "Password"
-msgstr "Salasana"
+msgstr "密码"
 
 #: main.qml:342
 msgid "Login"
-msgstr "Kirjaudu"
+msgstr "登录"
 
 #: main.qml:393
 msgid "Suspend"
-msgstr "Valmiustila"
+msgstr "挂起"
 
 #: main.qml:401
 msgid "Hibernate"
-msgstr "Lepotila"
+msgstr "休眠"
 
 #: main.qml:410
 msgid "Restart"
-msgstr "Käynnistä uudelleen"
+msgstr "重启"
 
 #: main.qml:418
 msgid "Shutdown"
-msgstr "Sammuta"
+msgstr "关机"

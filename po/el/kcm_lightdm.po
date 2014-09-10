@@ -1,21 +1,21 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Antonis Geralis <capoiosct@gmail.com>, 2012.
+# Antonis Geralis <capoiosct@gmail.com>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-08-19 05:54+0200\n"
-"PO-Revision-Date: 2012-07-20 20:20+0300\n"
+"PO-Revision-Date: 2013-07-08 17:20+0300\n"
 "Last-Translator: Antonis Geralis <capoiosct@gmail.com>\n"
-"Language-Team: Greek <kde-i18n-doc@kde.org>\n"
+"Language-Team: Greek <kde-i18n-el@kde.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -45,7 +45,7 @@ msgstr "Επιτρέπεται η σύνδεση επισκέπτη"
 #. i18n: ectx: property (text), widget (QCheckBox, autoLogin)
 #: coreconfig.ui:40
 msgid "Automatically log in:"
-msgstr "Αυτόματη είσοδος σε:"
+msgstr "Αυτόματη είσοδος:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: coreconfig.ui:52

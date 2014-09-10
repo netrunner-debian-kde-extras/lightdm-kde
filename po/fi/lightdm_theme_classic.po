@@ -1,13 +1,13 @@
-# Lasse Liehu <lasse.liehu@gmail.com>, 2012.
 # KDE Finnish translation sprint participants:
 # Author: Artnay
 # Author: Lliehu
+# Lasse Liehu <lasse.liehu@gmail.com>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: lightdm_theme_classic\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-08-20 06:44+0200\n"
-"PO-Revision-Date: 2013-01-20 20:04:51+0000\n"
+"PO-Revision-Date: 2013-12-22 14:03+0200\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
 "Language: fi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-POT-Import-Date: 2012-12-01 22:26:33+0000\n"
-"X-Generator: MediaWiki 1.21alpha (963ddae); Translate 2012-11-08\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -27,7 +27,7 @@ msgstr "Taustakuva:"
 #. i18n: ectx: property (text), widget (SelectImageButton, kcfg_Logo)
 #: config.ui:27 config.ui:55
 msgid "..."
-msgstr "..."
+msgstr "…"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: config.ui:34

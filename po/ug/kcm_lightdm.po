@@ -1,111 +1,111 @@
+# Uyghur translation for kcm_lightdm.
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
+# Gheyret Kenji <gheyret@gmail.com>, YEAR.
 #
-# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: kcm_lightdm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-08-19 05:54+0200\n"
-"PO-Revision-Date: 2012-06-17 07:03+0200\n"
-"Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
-"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
-"Language: sv\n"
+"PO-Revision-Date: 2013-09-08 07:05+0900\n"
+"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
+"Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Stefan Asserhäll"
+msgstr "ئابدۇقادىر ئابلىز, غەيرەت كەنجى"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "stefan.asserhall@bredband.net"
+msgstr "sahran.ug@gmail.com,  gheyret@gmail.com"
 
 #: configwidgets/selectimagebutton.cpp:40
 msgid "Load from file..."
-msgstr "Läs in från fil..."
+msgstr "ھۆججەتتىن ئوقۇش…"
 
 #: configwidgets/selectimagebutton.cpp:41
 msgid "Clear Image"
-msgstr "Rensa bild"
+msgstr ""
 
 #: configwidgets/selectimagebutton.cpp:75
 msgid "Select image"
-msgstr "Välj bild"
+msgstr "سۈرەت تاللاش:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, allowGuest)
 #: coreconfig.ui:17
 msgid "Allow guest login"
-msgstr "Tillåt gästinloggning"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, autoLogin)
 #: coreconfig.ui:40
 msgid "Automatically log in:"
-msgstr "Logga in automatiskt:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: coreconfig.ui:52
 msgid "As user:"
-msgstr "Som användare:"
+msgstr "ئىشلەتكۈچىدەك:"
 
 #. i18n: ectx: property (text), widget (QLabel, autoLoginSessionLabel)
 #: coreconfig.ui:69
 msgid "Using session:"
-msgstr "Med session:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, autoLoginTimeoutLabel)
 #: coreconfig.ui:86
 msgid "After:"
-msgstr "Efter:"
+msgstr "كېيىن:"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, autoLoginTimeout)
 #: coreconfig.ui:99
 msgid " minutes"
-msgstr " minuter"
+msgstr " مىنۇت"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableXdmcp)
 #: coreconfig.ui:127
 msgid "XDMCP Server"
-msgstr "XDMCP-server"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (KPushButton, kpushbutton)
 #. i18n: ectx: property (text), widget (KPushButton, kpushbutton_2)
 #: coreconfig.ui:142 coreconfig.ui:179
 msgid "Configure..."
-msgstr "Anpassa..."
+msgstr "سەپلە…"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableVnc)
 #: coreconfig.ui:164
 msgid "VNC Server"
-msgstr "VNC-server"
+msgstr ""
 
 #: lightdmkcm.cpp:47
 msgid "LightDM KDE Config"
-msgstr "Inställning av LightDM i KDE"
+msgstr ""
 
 #: lightdmkcm.cpp:69
 msgid "Theme"
-msgstr "Tema"
+msgstr "ئۆرنەك"
 
 #: lightdmkcm.cpp:70
 msgid "General"
-msgstr "Allmänt"
+msgstr "ئادەتتىكى"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: sessionconfig.ui:27
 msgid "Background:"
-msgstr "Bakgrund:"
+msgstr "تەگلىك:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_hostname)
 #: sessionconfig.ui:37
 msgid "Show Hostname"
-msgstr "Visa värddatornamn"
+msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ThemeConfig)
 #: themeconfig.ui:14
 msgid "MainWindow"
-msgstr "Huvudfönster"
+msgstr "ئاساسىي كۆزنەك"
