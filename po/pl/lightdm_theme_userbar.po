@@ -2,13 +2,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2012.
+# Marta Rybczyńska <kde-i18n@rybczynska.net>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-04-13 03:59+0200\n"
-"PO-Revision-Date: 2012-07-14 13:17+0200\n"
-"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"PO-Revision-Date: 2013-09-01 16:49+0200\n"
+"Last-Translator: Marta Rybczyńska <kde-i18n@rybczynska.net>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -20,8 +21,6 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: config.ui:20
-#, fuzzy
-#| msgid "Background Image:"
 msgid "Background image:"
 msgstr "Obraz tła:"
 
@@ -33,7 +32,7 @@ msgstr "..."
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: config.ui:37
 msgid "Keep aspect ratio:"
-msgstr ""
+msgstr "Zachowaj proporcje:"
 
 #: main.qml:57
 msgid "Sorry, incorrect password. Please try again."
