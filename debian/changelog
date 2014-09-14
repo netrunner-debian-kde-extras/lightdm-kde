@@ -1,9 +1,9 @@
-lightdm-kde (0.3.2.2-1) UNRELEASED; urgency=medium
+lightdm-kde (0.3.2.2-1) unstable; urgency=medium
 
   * New upstream release.
   * Update Standards-Version to 3.9.5. No changes needed.
 
- -- Ralf Jung <post@ralfj.de>  Fri, 12 Sep 2014 12:49:06 +0200
+ -- Ralf Jung <post@ralfj.de>  Sun, 14 Sep 2014 14:10:06 +0200
 
 lightdm-kde (0.3.2.1-2) unstable; urgency=medium
 
